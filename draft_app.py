@@ -392,6 +392,90 @@ def scarcity(available: pd.DataFrame) -> dict:
     }
 
 
+def tier_cliffs(available: pd.DataFrame, tier_col: str = "Tier",
+                low: int = 2) -> list[tuple[int, int]]:
+    """Tiers about to dry up: `low` or fewer players still available AND at
+    least one player still sitting in a deeper tier (so running out is a real
+    value drop-off, not just the end of the pool). (tier, remaining) pairs,
+    best (lowest-numbered) tier first.
+    """
+    if tier_col not in getattr(available, "columns", []) or available.empty:
+        return []
+    counts = available.groupby(tier_col).size()
+    counts = counts[counts.index.notna()]
+    if counts.empty:
+        return []
+    max_tier = int(max(int(x) for x in counts.index))
+    out: list[tuple[int, int]] = []
+    for t in sorted(int(x) for x in counts.index):
+        n = int(counts.loc[t])
+        if 1 <= n <= low and t < max_tier:
+            out.append((t, n))
+    return out
+
+
+_FLAG_FLASH = {
+    "STUD": ("Model Stud", "green"),
+    "FLOOR": ("Safe Floor", "green"),
+    "SLEEPER": ("Late Sleeper", "blue"),
+    "GAMBLE": ("Boom / Bust", "orange"),
+    "BUST": ("Priced Up — fade", "red"),
+    "HANDCUFF": ("Handcuff", "gray"),
+    "DEPTH": ("Bench Depth", "gray"),
+}
+_INJURY_KEYWORDS = (
+    ("hamstring", "Hamstring Risk"), ("groin", "Groin Risk"),
+    ("ankle", "Ankle Risk"), ("knee", "Knee Risk"), ("acl", "ACL History"),
+    ("psoas", "Psoas Risk"), ("concussion", "Concussion History"),
+    ("shoulder", "Shoulder Risk"), ("achilles", "Achilles History"),
+)
+_VOLUME_KEYWORDS = (
+    "bell-cow", "bell cow", "high-volume", "target share", "true wr1",
+    "workhorse", "every-down", "three-down", "lead back", "bell cow",
+)
+
+
+def flash_tags(row: dict) -> list[tuple[str, str]]:
+    """Punchy plain-language (label, colour) chips for the focus drawer -- risk
+    and upside processable in ~2 seconds. Derived only from data already on the
+    row (Flag / ContractYear / DurabilityNote / Notes / overlay columns)."""
+    tags: list[tuple[str, str]] = []
+
+    flag = _clean(row.get("Flag")).upper()
+    if flag in _FLAG_FLASH:
+        tags.append(_FLAG_FLASH[flag])
+    if str(row.get("ContractYear", "")).strip().upper() == "Y":
+        tags.append(("Contract Year", "violet"))
+
+    dur = _clean(row.get("DurabilityNote")).lower()
+    for kw, label in _INJURY_KEYWORDS:
+        if kw in dur:
+            tags.append((label, "red"))
+            break
+    if bool(row.get("Monitor")):
+        tags.append(("Injury Watch", "red"))
+    if bool(row.get("HighOffense")):
+        tags.append(("Elite Offense", "green"))
+    hcf = _clean(row.get("HandcuffFor"))
+    if hcf:
+        tags.append((f"Backs up {hcf}", "gray"))
+
+    vd = row.get("ValueDelta")
+    if pd.notna(vd):
+        vd = float(vd)
+        if vd >= 15:
+            tags.append(("Model Value", "green"))
+        elif vd <= -15:
+            tags.append(("Market Reach", "orange"))
+
+    note = (_clean(row.get("Notes")) + " " + _clean(row.get("NewsNote"))).lower()
+    if any(k in note for k in _VOLUME_KEYWORDS):
+        tags.append(("High-Volume Role", "green"))
+
+    seen: set[str] = set()
+    return [t for t in tags if not (t[0] in seen or seen.add(t[0]))]
+
+
 def resolve_action(current: str | None, clicked: str) -> tuple[str, str | None]:
     """Inline toggle/swap state machine for the board's Draft/Gone buttons.
 
@@ -770,6 +854,20 @@ def run_app() -> None:
             _ho = int((available["HighOffense"] & available["ADP"].notna()
                        & (available["ADP"] >= 100)).sum())
             st.caption(f"⚡ high-offense ceiling targets left (ADP ≥ 100): **{_ho}**")
+
+        # --- tier-cliff warnings (don't get caught sleeping on a run) -----
+        _gcliffs = tier_cliffs(available, "Tier", low=2)
+        for t, n in _gcliffs[:3]:
+            st.warning(f"⛰️ **Global Tier {t}** — only {n} left, then the "
+                       f"next value drop-off.")
+        _pos_lines = []
+        for pos in ("QB", "RB", "WR", "TE"):
+            for pt, n in tier_cliffs(available[available["Pos"] == pos],
+                                     "PosTier", low=1)[:1]:
+                _pos_lines.append(f"{pos} tier {pt}: {n} left")
+        if _pos_lines:
+            st.caption("⛰️ positional last-in-tier — " + " · ".join(_pos_lines))
+
         with st.expander("Remaining by NFL tier"):
             tier_df = pd.DataFrame(
                 [{"Tier": k, "Players left": v} for k, v in sc["by_tier"].items()]
@@ -1028,28 +1126,69 @@ def run_app() -> None:
                 "", key="draft_click", on_click=_do_draft, width=96),
             "Gone": st.column_config.ButtonColumn(
                 "", key="gone_click", on_click=_do_gone, width=96),
+            "G.Rk": st.column_config.Column(
+                "G.Rk", width="small",
+                help="Global Rank — the model's overall value-based rank across "
+                     "ALL positions (1 = best pick available regardless of "
+                     "position). Sorted on Global Value by default."),
+            "Pos": st.column_config.Column("Pos", width="small",
+                                           help="Position: QB / RB / WR / TE"),
+            "Team": st.column_config.Column("Team", width="small",
+                                            help="NFL team ('FA' = free agent)"),
             "Bye": st.column_config.Column(
                 "Bye", width="small", help="2026 NFL bye week"),
+            "Pos ECR": st.column_config.Column(
+                "Pos ECR", width="small",
+                help="Positional Expert Consensus Rank — the market's consensus "
+                     "rank among players AT THIS POSITION (FantasyPros, ~100+ "
+                     "experts). Lower = more highly regarded."),
+            "NFL Tier": st.column_config.Column(
+                "NFL Tier", width="small",
+                help="Global value tier (1–12). Tiers are natural scoring "
+                     "cliffs cut from gaps in Global Value — players in one tier "
+                     "are roughly interchangeable; the drop BETWEEN tiers is "
+                     "where value is lost."),
             "ADP": st.column_config.Column(
                 "ADP", width="small",
-                help="12-team Superflex ADP. Amber cell = at real risk of "
-                     "being sniped before your next turn (scaled to our "
-                     "10-team room)."),
+                help="Average Draft Position (12-team Superflex, FantasyPros). "
+                     "Amber cell = at real risk of being sniped before your next "
+                     "turn (scaled to our 10-team room)."),
+            "Value Δ": st.column_config.Column(
+                "Value Δ", width="small",
+                help="Value Delta = ADP − Global Rank.  POSITIVE (green): the "
+                     "market lets him slide PAST the model's rank — a draft-day "
+                     "discount.  NEGATIVE (red): the market drafts him AHEAD of "
+                     "the model — a reach."),
+            "CY": st.column_config.Column(
+                "CY", width="small",
+                help="Contract Year — 'CY' if the player is in the final year of "
+                     "his deal (common usage/motivation bump; also a trade / "
+                     "hold-out risk)."),
             "Risk": st.column_config.TextColumn(
                 "⚑", width="small",
-                help="⚠ reach vs ADP (Δ ≤ -10)  ·  🩹 durability note  ·  "
-                     "🔥 likely gone before your next pick  ·  ⏳ on the bubble"),
+                help="Computed risk:  ⚠ reach vs ADP (Δ ≤ -10)  ·  🩹 durability "
+                     "note  ·  🔥 likely gone before your next pick  ·  ⏳ on the "
+                     "bubble between your next two picks"),
             "Tags": st.column_config.TextColumn(
                 "Tags", width="small",
-                help="🔒 handcuff  ·  🚑 injury-monitored (draft-day news)  ·  "
-                     "⚡ elite offensive environment"),
+                help="Curated context:  🔒 handcuff  ·  🚑 injury-monitored "
+                     "(draft-day news)  ·  ⚡ elite offensive environment"),
+            "Flag": st.column_config.Column(
+                "Flag", width="small",
+                help="Model conviction / risk tag — STUD (elite, buy) · FLOOR "
+                     "(safe floor) · SLEEPER (late upside) · GAMBLE (boom/bust) "
+                     "· BUST (priced above the model — fade) · HANDCUFF (RB "
+                     "insurance) · DEPTH (bench filler)."),
             "SoS": st.column_config.TextColumn(
                 sos_head, width="small",
                 help=("Weeks 1-4 opponents (from the kit)" if not full_sos
                       else "FantasyPros full-season, position-split")
                      + " — Very Soft (easiest) → Gauntlet (hardest). "
                        "Switch with the SoS horizon toggle."),
-            "Notes": st.column_config.TextColumn("Notes", width="large"),
+            "Notes": st.column_config.TextColumn(
+                "Notes", width="large",
+                help="🆕 = a draft_day_news.py override (fresh intel); the "
+                     "researched note is kept behind it."),
         }
         st.dataframe(
             styler, hide_index=True, use_container_width=True, height=560,
@@ -1057,6 +1196,29 @@ def run_app() -> None:
         st.caption(f"{len(show)} shown · {len(drafted_names)} drafted · "
                    f"{len(players) - len(drafted_names)} still available  ·  "
                    f"tap 🔍 for a player's deep-dive")
+
+        with st.expander("ℹ️  What the columns & tags mean"):
+            st.markdown(
+                "| Column | Meaning |\n|---|---|\n"
+                "| **G.Rk** | Global Rank — model's overall value rank across all "
+                "positions (1 = best pick, any position) |\n"
+                "| **Pos ECR** | Positional Expert Consensus Rank — market's "
+                "consensus rank *within* the position (lower = better) |\n"
+                "| **NFL Tier** | Global value tier 1–12; the gap *between* tiers "
+                "is a scoring cliff |\n"
+                "| **ADP** | Average Draft Position (12-team Superflex) |\n"
+                "| **Value Δ** | ADP − Global Rank. **+green** = slides past the "
+                "model → discount. **−red** = drafted ahead of the model → reach |\n"
+                "| **CY** | Contract Year — final year of the player's deal |\n"
+                "| **Flag** | STUD / FLOOR / SLEEPER / GAMBLE / BUST / HANDCUFF / "
+                "DEPTH — model conviction & risk |\n"
+                "| **SoS** | schedule difficulty for the selected horizon — Very "
+                "Soft (easiest) → Gauntlet (hardest) |\n\n"
+                "**⚑ risk glyphs:** ⚠ reach · 🩹 durability note · 🔥 likely gone "
+                "before your next pick · ⏳ on the bubble  \n"
+                "**Tag glyphs:** 🔒 handcuff · 🚑 injury-monitored · ⚡ elite "
+                "offense  \n"
+                "**Sidebar:** ⛰️ = a value tier about to dry up before your next turn.")
 
         # ---- focus drawer: driven by the 🔍 View button ----------------
         focus_name = st.session_state.get("_focus_name")
@@ -1071,6 +1233,10 @@ def run_app() -> None:
                     f"</span>", unsafe_allow_html=True)
                 hc2.button("✕", key="_focus_clear",
                            on_click=lambda: st.session_state.pop("_focus_name", None))
+
+                _chips = flash_tags(fr)
+                if _chips:
+                    st.markdown(" ".join(f":{c}-badge[{t}]" for t, c in _chips))
 
                 if _clean(fr.get("NewsNote")):
                     st.warning("🆕 " + _clean(fr["NewsNote"]))

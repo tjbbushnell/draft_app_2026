@@ -24,6 +24,7 @@ from draft_app import (
     bye_stack_caution,
     candidate_cautions,
     effective_note,
+    flash_tags,
     full_sos_label,
     next_my_pick,
     overall_to_round_pick,
@@ -35,6 +36,7 @@ from draft_app import (
     roster_guardrails,
     scarcity,
     snake_pick_slots,
+    tier_cliffs,
     upcoming_my_picks,
 )
 
@@ -398,6 +400,46 @@ def test_full_sos_real_file_covers_all_32_teams_and_all_positions():
     miss = df[(df.Team != "FA") &
               df.apply(lambda r: (r.Team, r.Pos) not in m, axis=1)]
     assert miss.empty, miss[["Name", "Team", "Pos"]].to_dict("records")
+
+
+def test_tier_cliffs_flags_thin_tiers_not_the_last_one():
+    df = pd.DataFrame({
+        "Tier": [1, 1, 1, 2, 3, 3, 4],   # T1:3  T2:1(cliff)  T3:2(cliff)  T4:1(last, skip)
+    })
+    cliffs = tier_cliffs(df, "Tier", low=2)
+    assert cliffs == [(2, 1), (3, 2)], cliffs
+    # tighten the threshold
+    assert tier_cliffs(df, "Tier", low=1) == [(2, 1)]
+    # empty frame / missing column -> no crash
+    assert tier_cliffs(pd.DataFrame(), "Tier") == []
+    assert tier_cliffs(pd.DataFrame({"X": [1]}), "Tier") == []
+
+
+def test_tier_cliffs_handles_float_and_nan_tier_column():
+    # None -> float64 col with NaN; groupby drops NaN, ints come back clean
+    df = pd.DataFrame({"Tier": [1, 1, 2, 3, 3, 3, None, None]})
+    # T1:2 (cliff, low=2)  T2:1 (cliff)  T3:3 (fine)  -> T3 is the last tier
+    assert tier_cliffs(df, "Tier", low=2) == [(1, 2), (2, 1)]
+
+
+def test_flash_tags_are_punchy_and_data_driven():
+    row = _p("X", "RB", 50, Flag="GAMBLE", ValueDelta=-20)
+    row["ContractYear"] = "Y"
+    row["DurabilityNote"] = "active hamstring strain since mid-Aug"
+    labels = [t[0] for t in flash_tags(row)]
+    assert "Boom / Bust" in labels
+    assert "Contract Year" in labels
+    assert "Hamstring Risk" in labels
+    assert "Market Reach" in labels          # ValueDelta <= -15
+    # every chip carries a valid streamlit badge colour
+    assert all(c in {"red", "orange", "yellow", "blue", "green", "violet", "gray"}
+               for _, c in flash_tags(row))
+
+
+def test_flash_tags_empty_for_a_plain_player():
+    row = _p("Plain", "WR", 40)          # no flag, no CY, no injury, small delta
+    row["ContractYear"] = "N"
+    assert flash_tags(row) == []
 
 
 def _run_all():

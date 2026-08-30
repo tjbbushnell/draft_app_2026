@@ -72,10 +72,19 @@ It opens at http://localhost:8501. Keep the terminal window open during the draf
   - **Available only** — drafted players vanish; clean view of what's left.
   - **Show all (ghosted)** — drafted players stay, dimmed, with a `— MINE —` /
     `— GONE —` status and live toggle buttons so you can fix mistakes in place.
-- **Focus drawer**: hit `🔍` on a row to open a panel under the table — `🆕`
+- **Focus drawer**: hit `🔍` on a row to open a panel under the table —
+  plain-language **flash-tag chips** (Contract Year · Hamstring Risk · Elite
+  Offense · Model Value · …, colour-coded, readable in ~2s), then `🆕`
   draft-day news, `🔒` handcuff linkage, `⚡` offensive-environment note, `🚑`
-  monitor flag, then metrics (ADP / Value Δ / SoS Wk 1-4 / SoS full / bye week), snipe-risk,
-  bye overlap with your roster, cautions, and the researched note. `✕` closes it.
+  monitor flag, metrics (ADP / Value Δ / SoS Wk 1-4 / SoS full / bye week),
+  snipe-risk, bye overlap with your roster, cautions, and the researched note.
+  `✕` closes it.
+- **Column legend**: an `ℹ️ What the columns & tags mean` expander above the
+  table, plus a `help` tooltip on **every** column header (G.Rk, Pos ECR, NFL
+  Tier, ADP, Value Δ, CY, Flag, SoS, ⚑, Tags).
+- **Tier-cliff warnings** (sidebar): `⛰️ Global Tier N — only X left` when a
+  value tier is about to dry up before your next turn, plus a positional
+  `last-in-tier` line (`RB tier 1: 1 left`) so a run doesn't catch you asleep.
 - **Bye weeks**: the `Bye` column (2026 NFL bye) is on the master table, in the
   focus drawer, in *My roster* / *Draft history*, and in both exports. It's a
   **filter** (`Bye week` multiselect) and a **Sort by** option. Byes come from the
@@ -123,9 +132,10 @@ tier, ADP, Value Δ, when you drafted him) or **Download roster text summary**
 ## Tests
 
 Pure-logic helpers (snake math, slot assignment, guardrails, bye parsing,
-snipe-risk, news overlay, full-season SoS parsing, export) are covered —
-**35 tests**, incl. real-file checks that every `draft_day_news.NEWS` name exists
-in `players_2026.csv` and that the full-season SoS covers all 32 teams:
+snipe-risk, news overlay, full-season SoS parsing, tier cliffs, flash tags,
+export) are covered — **39 tests**, incl. real-file checks that every
+`draft_day_news.NEWS` name exists in `players_2026.csv` and that the full-season
+SoS covers all 32 teams:
 
 ```bash
 py test_draft_app.py
