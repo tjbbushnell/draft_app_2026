@@ -24,8 +24,10 @@ from draft_app import (
     bye_stack_caution,
     candidate_cautions,
     effective_note,
+    full_sos_label,
     next_my_pick,
     overall_to_round_pick,
+    parse_full_sos,
     parse_team_byes,
     position_counts,
     resolve_action,
@@ -349,6 +351,53 @@ def test_draft_day_news_names_all_exist_in_pool():
     assert not missing, f"names in draft_day_news.NEWS not in players_2026.csv: {missing}"
     bad_teams = [t for t in draft_day_news.HIGH_OFFENSE_TEAMS if len(t) not in (2, 3)]
     assert not bad_teams, f"HIGH_OFFENSE_TEAMS should be team codes: {bad_teams}"
+
+
+def test_full_sos_label_scale_matches_early_vocabulary():
+    assert full_sos_label(5) == "Very Soft"     # 5 stars = easiest
+    assert full_sos_label(1) == "Gauntlet"      # 1 star  = toughest
+    assert full_sos_label(3) == "Neutral"
+    assert full_sos_label(None) == "—"
+    assert full_sos_label(float("nan")) == "—"
+
+
+def test_parse_full_sos_from_synthetic():
+    import tempfile
+    with tempfile.TemporaryDirectory() as td:
+        f = Path(td) / "sos.csv"
+        f.write_text(
+            '"Star ratings: 1 = toughest schedule, 5 = easiest"\n'
+            "\n"
+            "TEAM,QB,RB,WR,TE,K,DST\n"
+            "Detroit Lions,5,5,4,3,5,5\n"
+            "San Francisco 49ers,1,2,2,3,5,3\n"
+            "Not A Real Team,4,4,4,4,4,4\n",
+            encoding="utf-8")
+        m = parse_full_sos(f)
+    assert m[("DET", "QB")] == 5 and m[("DET", "TE")] == 3
+    assert m[("SF", "QB")] == 1
+    assert not any(t == "Not A Real Team" for (t, _) in m)   # unknown name dropped
+    assert ("DET", "K") not in m                              # only QB/RB/WR/TE
+
+
+def test_parse_full_sos_missing_file_is_empty():
+    assert parse_full_sos(Path("nope_missing_sos_98765.csv")) == {}
+
+
+def test_full_sos_real_file_covers_all_32_teams_and_all_positions():
+    import draft_app
+    m = parse_full_sos(draft_app.FULL_SOS_PATH)
+    teams = {t for (t, _) in m}
+    assert len(teams) == 32, sorted(teams)
+    for t in teams:
+        for pos in ("QB", "RB", "WR", "TE"):
+            assert (t, pos) in m, f"missing {(t, pos)}"
+            assert 1 <= m[(t, pos)] <= 5
+    # every non-FA player in the pool resolves to a full-season SoS
+    df = pd.read_csv("players_2026.csv")
+    miss = df[(df.Team != "FA") &
+              df.apply(lambda r: (r.Team, r.Pos) not in m, axis=1)]
+    assert miss.empty, miss[["Name", "Team", "Pos"]].to_dict("records")
 
 
 def _run_all():

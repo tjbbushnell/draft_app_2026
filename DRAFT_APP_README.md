@@ -25,10 +25,20 @@ it's re-read every run, no cache clear needed. It holds:
 
 A typo'd name in `NEWS` shows a sidebar warning (and fails `test_draft_app.py`).
 
-**Not included (deliberately):** a playoff-weeks (14–17) strength-of-schedule
-metric. The pipeline only carries the cross-verified Weeks 1–4 schedule; a real
-playoff SoS needs the Week 14–17 matchups sourced and tested, which is deferred
-rather than faked. The `Early SoS` column remains Weeks-1–4-only.
+**Strength of schedule — two horizons.** The `SoS horizon` toggle (above the
+table) switches the `SoS` column, the `SoS` filter, the `SoS` sort option, and
+the label in the focus drawer between:
+
+- **Early (Wk 1–4)** — each team's real Weeks 1–4 opponents, from the kit
+  (`players_2026.csv` `SoS_Label`).
+- **Full season** — FantasyPros' position-split (QB/RB/WR/TE) full-year rating
+  from `FantasyPros_Fantasy_Football_2026_Strength_Of_Schedule.csv`, mapped by
+  team name → code and put on the **same** `Very Soft → Gauntlet` label scale.
+  FA players show `N/A (FA)`.
+
+The focus drawer shows **both** horizons side by side. Still *not* built: a
+playoff-weeks (14–17) SoS — the pipeline has no Week 14–17 matchups to derive it
+from, so it stays deferred rather than faked.
 
 ## Launch
 
@@ -64,7 +74,7 @@ It opens at http://localhost:8501. Keep the terminal window open during the draf
     `— GONE —` status and live toggle buttons so you can fix mistakes in place.
 - **Focus drawer**: hit `🔍` on a row to open a panel under the table — `🆕`
   draft-day news, `🔒` handcuff linkage, `⚡` offensive-environment note, `🚑`
-  monitor flag, then metrics (ADP / Value Δ / Early SoS / bye week), snipe-risk,
+  monitor flag, then metrics (ADP / Value Δ / SoS Wk 1-4 / SoS full / bye week), snipe-risk,
   bye overlap with your roster, cautions, and the researched note. `✕` closes it.
 - **Bye weeks**: the `Bye` column (2026 NFL bye) is on the master table, in the
   focus drawer, in *My roster* / *Draft history*, and in both exports. It's a
@@ -113,8 +123,9 @@ tier, ADP, Value Δ, when you drafted him) or **Download roster text summary**
 ## Tests
 
 Pure-logic helpers (snake math, slot assignment, guardrails, bye parsing,
-snipe-risk, news overlay, export) are covered — **31 tests**, incl. a real-file
-check that every `draft_day_news.NEWS` name exists in `players_2026.csv`:
+snipe-risk, news overlay, full-season SoS parsing, export) are covered —
+**35 tests**, incl. real-file checks that every `draft_day_news.NEWS` name exists
+in `players_2026.csv` and that the full-season SoS covers all 32 teams:
 
 ```bash
 py test_draft_app.py

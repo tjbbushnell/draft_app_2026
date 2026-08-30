@@ -88,8 +88,29 @@ ELITE_TE_POSTIER_CUTOFF = 2
 CSV_PATH = Path(__file__).with_name("players_2026.csv")
 BYE_CHEATSHEET_PATH = Path(__file__).with_name(
     "FantasyPros_Fantasy_Football_Bye_Week_Cheatsheet.csv")
+FULL_SOS_PATH = Path(__file__).with_name(
+    "FantasyPros_Fantasy_Football_2026_Strength_Of_Schedule.csv")
 STATE_PATH = Path(__file__).with_name("draft_state.json")
 STATE_VERSION = 1
+
+# Full-season SoS label vocabulary -- deliberately the SAME words the Weeks-1-4
+# `SoS_Label` uses, so the two horizons read on one scale (easiest -> hardest).
+# FantasyPros stars: 1 = toughest schedule .. 5 = easiest.
+FULL_SOS_LABEL = {5: "Very Soft", 4: "Soft", 3: "Neutral", 2: "Tough", 1: "Gauntlet"}
+
+NFL_NAME_TO_CODE = {
+    "Arizona Cardinals": "ARI", "Atlanta Falcons": "ATL", "Baltimore Ravens": "BAL",
+    "Buffalo Bills": "BUF", "Carolina Panthers": "CAR", "Chicago Bears": "CHI",
+    "Cincinnati Bengals": "CIN", "Cleveland Browns": "CLE", "Dallas Cowboys": "DAL",
+    "Denver Broncos": "DEN", "Detroit Lions": "DET", "Green Bay Packers": "GB",
+    "Houston Texans": "HOU", "Indianapolis Colts": "IND", "Jacksonville Jaguars": "JAC",
+    "Kansas City Chiefs": "KC", "Las Vegas Raiders": "LV", "Los Angeles Chargers": "LAC",
+    "Los Angeles Rams": "LAR", "Miami Dolphins": "MIA", "Minnesota Vikings": "MIN",
+    "New England Patriots": "NE", "New Orleans Saints": "NO", "New York Giants": "NYG",
+    "New York Jets": "NYJ", "Philadelphia Eagles": "PHI", "Pittsburgh Steelers": "PIT",
+    "San Francisco 49ers": "SF", "Seattle Seahawks": "SEA", "Tampa Bay Buccaneers": "TB",
+    "Tennessee Titans": "TEN", "Washington Commanders": "WAS",
+}
 
 # Drafting 3+ starters who share a bye week means a real hole in that week's
 # lineup; 4+ is a near-guaranteed loss that week.
@@ -428,6 +449,44 @@ def effective_note(row: dict) -> str:
 
 
 # =============================================================================
+# STRENGTH OF SCHEDULE  (full-season, alongside the Weeks-1-4 metric)
+# =============================================================================
+
+def parse_full_sos(path: Path) -> dict[tuple[str, str], int]:
+    """{(TEAM_CODE, POS): star} from the FantasyPros full-season SoS CSV.
+
+    Stars are 1 (toughest schedule) .. 5 (easiest) and are split by position
+    (QB / RB / WR / TE). Returns {} if the file is missing or unreadable.
+    """
+    if not path.exists():
+        return {}
+    try:
+        raw = pd.read_csv(path, skiprows=1)      # line 1 is the "Star ratings:" note
+    except Exception:
+        return {}
+    raw.columns = [str(c).strip() for c in raw.columns]
+    if "TEAM" not in raw.columns:
+        return {}
+    out: dict[tuple[str, str], int] = {}
+    for _, r in raw.iterrows():
+        code = NFL_NAME_TO_CODE.get(str(r["TEAM"]).strip())
+        if not code:
+            continue
+        for pos in ("QB", "RB", "WR", "TE"):
+            v = pd.to_numeric(r.get(pos), errors="coerce")
+            if pd.notna(v) and 1 <= int(v) <= 5:
+                out[(code, pos)] = int(v)
+    return out
+
+
+def full_sos_label(star) -> str:
+    """Star (1..5, 5 = easiest) -> the shared SoS label. '—' if unknown."""
+    if star is None or pd.isna(star):
+        return "—"
+    return FULL_SOS_LABEL.get(int(star), "—")
+
+
+# =============================================================================
 # BYE-WEEK INGESTION
 # =============================================================================
 
@@ -558,6 +617,18 @@ def run_app() -> None:
         team_bye = parse_team_byes(BYE_CHEATSHEET_PATH,
                                    dict(zip(df["Name"], df["Team"])))
         df["Bye"] = df["Team"].map(team_bye).astype("Int64")
+
+        # Full-season SoS (FantasyPros, position-split). Kept on the SAME
+        # label scale as the Weeks-1-4 `SoS_Label`. FullSoS_Rank is 1 (easiest)
+        # .. 5 (hardest) so it sorts the same direction as SoS_Rank.
+        sos_map = parse_full_sos(FULL_SOS_PATH)
+        star = df.apply(lambda r: sos_map.get((r["Team"], r["Pos"])), axis=1)
+        df["FullSoS_Star"] = pd.to_numeric(star, errors="coerce").astype("Int64")
+        df["FullSoS_Rank"] = (6 - df["FullSoS_Star"]).astype("Int64")
+        df["FullSoS_Label"] = [
+            "N/A (FA)" if t == "FA" else full_sos_label(s)
+            for t, s in zip(df["Team"], df["FullSoS_Star"])
+        ]
         return df
 
     def load_news() -> tuple[dict, set]:
@@ -777,19 +848,33 @@ def run_app() -> None:
                 st.session_state["_focus_name"] = names[c["row"]]
 
         st.markdown("#### Board")
-        pool_view = st.radio(
+        pv, sh = st.columns([1, 1])
+        pool_view = pv.radio(
             "Pool view", ["Available only", "Show all (ghosted)"],
             horizontal=True,
             help="'Show all' keeps drafted players visible, dimmed, with live "
                  "toggle buttons so a mis-click is fixed right on the row.")
         ghosted = pool_view.startswith("Show all")
+        sos_horizon = sh.radio(
+            "SoS horizon", ["Early (Wk 1-4)", "Full season"], horizontal=True,
+            help="Early = each team's real Weeks 1-4 opponents (from the kit). "
+                 "Full season = FantasyPros' position-split full-year rating. "
+                 "Same easiest→hardest label scale for both.")
+        full_sos = sos_horizon.startswith("Full")
+        sos_label_col = "FullSoS_Label" if full_sos else "SoS_Label"
+        sos_rank_col = "FullSoS_Rank" if full_sos else "SoS_Rank"
+        sos_head = f"SoS · {'Full' if full_sos else 'Wk1-4'}"
 
-        f1, f2, f3 = st.columns([2.4, 1.8, 1.8])
+        f1, f2, f3, f4 = st.columns([2.2, 1.5, 1.5, 1.8])
         search = f1.text_input("Search name / team", "").strip().lower()
         pos_filter = f2.multiselect("Position", ["QB", "RB", "WR", "TE"], default=[])
         bye_options = sorted(int(b) for b in players["Bye"].dropna().unique())
         bye_filter = f3.multiselect("Bye week", bye_options, default=[],
                                     disabled=not bye_known)
+        sos_options = [x for x in ["Very Soft", "Soft", "Neutral", "Tough",
+                                   "Gauntlet", "N/A (FA)"]
+                       if x in set(players[sos_label_col])]
+        sos_filter = f4.multiselect(f"{sos_head} tier", sos_options, default=[])
 
         g1, g2, g3, g4 = st.columns(4)
         cy_only = g1.checkbox("Contract year only")
@@ -803,7 +888,7 @@ def run_app() -> None:
         sort_by = s1.selectbox(
             "Sort by",
             ["GlobalValue", "GlobalRank", "ADP", "ValueDelta", "ECR_Pos", "Tier",
-             "Bye", "Name"],
+             "Bye", "SoS", "Name"],
             index=0)
         sort_dir = s2.radio("Order", ["Desc", "Asc"], horizontal=True,
                             index=0 if sort_by == "GlobalValue" else 1)
@@ -820,6 +905,8 @@ def run_app() -> None:
             view = view[view["Pos"].isin(pos_filter)]
         if bye_filter:
             view = view[view["Bye"].isin(bye_filter)]
+        if sos_filter:
+            view = view[view[sos_label_col].isin(sos_filter)]
         if cy_only:
             view = view[view["ContractYear"] == "Y"]
         if hide_no_adp:
@@ -831,8 +918,10 @@ def run_app() -> None:
         view = view[view["Tier"] <= tier_max]
 
         ascending = (sort_dir == "Asc")
+        # "SoS" sorts by the selected horizon's rank (1 = easiest schedule).
+        sort_key = sos_rank_col if sort_by == "SoS" else sort_by
         # NaN always sinks to the bottom, whichever direction we sort.
-        view = view.sort_values(sort_by, ascending=ascending, na_position="last",
+        view = view.sort_values(sort_key, ascending=ascending, na_position="last",
                                 kind="mergesort").reset_index(drop=True)
 
         display_names = view["Name"].tolist()
@@ -891,7 +980,7 @@ def run_app() -> None:
             "Tags": [_tags(r) for _, r in view.iterrows()],
             "CY": view["ContractYear"].map({"Y": "CY", "N": ""}).fillna(""),
             "Flag": view["Flag"].fillna("").astype(str),
-            "Early SoS": view["SoS_Label"].fillna("").astype(str),
+            "SoS": view[sos_label_col].fillna("").astype(str),
             "Notes": [effective_note(r) for _, r in view.iterrows()],
         })
         if ghosted:
@@ -954,6 +1043,12 @@ def run_app() -> None:
                 "Tags", width="small",
                 help="🔒 handcuff  ·  🚑 injury-monitored (draft-day news)  ·  "
                      "⚡ elite offensive environment"),
+            "SoS": st.column_config.TextColumn(
+                sos_head, width="small",
+                help=("Weeks 1-4 opponents (from the kit)" if not full_sos
+                      else "FantasyPros full-season, position-split")
+                     + " — Very Soft (easiest) → Gauntlet (hardest). "
+                       "Switch with the SoS horizon toggle."),
             "Notes": st.column_config.TextColumn("Notes", width="large"),
         }
         st.dataframe(
@@ -991,15 +1086,18 @@ def run_app() -> None:
                     st.info("🚑 **Injury-monitored** — confirm his status the "
                             "morning of the draft.")
 
-                d1, d2, d3, d4 = st.columns(4)
+                d1, d2, d3, d4, d5 = st.columns(5)
                 adp, vd = fr["ADP"], fr["ValueDelta"]
                 d1.metric("ADP", f"{adp:.1f}" if pd.notna(adp) else "—")
                 d2.metric("Value Δ (ADP − rank)",
                           f"{vd:+.1f}" if pd.notna(vd) else "—",
                           help="positive = market is letting him slide past the model")
-                d3.metric("Early SoS (Wk 1-4)", _clean(fr["SoS_Label"]) or "—")
+                d3.metric("SoS · Wk 1-4", _clean(fr["SoS_Label"]) or "—",
+                          help="each team's real Weeks 1-4 opponents (from the kit)")
+                d4.metric("SoS · Full season", _clean(fr.get("FullSoS_Label")) or "—",
+                          help="FantasyPros full-season, position-split")
                 fbye = fr.get("Bye")
-                d4.metric("Bye week", f"Wk {int(fbye)}" if pd.notna(fbye) else "—")
+                d5.metric("Bye week", f"Wk {int(fbye)}" if pd.notna(fbye) else "—")
 
                 frisk = adp_pick_risk(adp, next_pick, pick_after)
                 if frisk == "gone" and pd.notna(adp):
