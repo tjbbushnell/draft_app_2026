@@ -1,0 +1,123 @@
+
+==============================================================================
+SIMULATION 1  (seed=2026)
+==============================================================================
+ Rd  Pick Pos  Player                   Team     ADP  Tier    GVal  Note
+  1     8 TE   Brock Bowers             LV      27.1 Tier 1   220.2  SLIDE (ADP 27 vs pick 8)
+  2    13 QB   Lamar Jackson            BAL      8.9 Tier 2   191.4  
+  3    28 TE   Trey McBride             ARI     31.6 Tier 2   123.8  
+  4    33 WR   George Pickens           DAL     31.1 Tier 3    52.7  
+  5    48 RB   Breece Hall              NYJ     44.4 Tier 4    24.8  
+  6    53 WR   Jaylen Waddle            DEN     50.5 Tier 4    20.8  
+  7    68 RB   Bucky Irving             TB      61.7 Tier 5    11.6  
+  8    73 WR   Christian Watson         GB      78.2 Tier 6     6.9  
+  9    88 RB   Rhamondre Stevenson      NE      87.6 Tier 6     2.9  
+ 10    93 QB   Tyler Shough             NO      87.0 Tier 7     0.0  
+ 11   108 WR   Michael Pittman Jr.      PIT    112.5 Tier 7    -3.1  
+ 12   113 RB   Blake Corum              LAR    111.4 Tier 7    -2.6  
+ 13   128 WR   Matthew Golden           GB     125.4 Tier 9   -10.8  
+ 14   133 RB   Rachaad White            WAS    135.7 Tier 8    -7.4  
+ 15   148 WR   Romeo Doubs              NE     140.3 Tier 8    -9.7  
+ 16   153 QB   Jacoby Brissett          ARI    145.9 Tier 10   -14.6  
+
+Position mix: QB 3 / RB 5 / WR 6 / TE 2  (total 16)
+
+Projected Week 1 lineup + bench:
+  QB         Lamar Jackson (BAL)
+  RB1        Breece Hall (NYJ)
+  RB2        Bucky Irving (TB)
+  WR1        George Pickens (DAL)
+  WR2        Jaylen Waddle (DEN)
+  TE         Brock Bowers (LV)
+  FLEX1      Trey McBride (ARI)
+  FLEX2      Christian Watson (GB)
+  SUPERFLEX  Rhamondre Stevenson (NE)
+  BN1        Tyler Shough (NO) (QB)
+  BN2        Blake Corum (LAR) (RB)
+  BN3        Michael Pittman Jr. (PIT) (WR)
+  BN4        Rachaad White (WAS) (RB)
+  BN5        Romeo Doubs (NE) (WR)
+  BN6        Matthew Golden (GB) (WR)
+  BN7        Jacoby Brissett (ARI) (QB)
+
+==============================================================================
+SIMULATION 2  (seed=4242)
+==============================================================================
+ Rd  Pick Pos  Player                   Team     ADP  Tier    GVal  Note
+  1     8 QB   Josh Allen               BUF      4.8 Tier 1   259.2  
+  2    13 TE   Brock Bowers             LV      27.1 Tier 1   220.2  SLIDE (ADP 27 vs pick 13)
+  3    28 TE   Trey McBride             ARI     31.6 Tier 2   123.8  
+  4    33 WR   George Pickens           DAL     31.1 Tier 3    52.7  
+  5    48 RB   Breece Hall              NYJ     44.4 Tier 4    24.8  
+  6    53 QB   Dak Prescott             DAL     38.9 Tier 3    42.4  REACH (ADP 39 vs pick 53)
+  7    68 WR   Jameson Williams         DET     72.3 Tier 5     9.4  
+  8    73 RB   David Montgomery         HOU     68.2 Tier 5     8.4  
+  9    88 WR   Brian Thomas Jr.         JAC     92.0 Tier 6     0.9  
+ 10    93 RB   Rhamondre Stevenson      NE      87.6 Tier 6     2.9  
+ 11   108 WR   Michael Pittman Jr.      PIT    112.5 Tier 7    -3.1  
+ 12   113 RB   Kenny Gainwell           TB     119.6 Tier 8    -6.5  
+ 13   128 WR   Jakobi Meyers            JAC    136.2 Tier 8    -8.7  
+ 14   133 QB   Bryce Young              CAR    126.9 Tier 9   -12.3  
+ 15   148 RB   Tyler Allgeier           ARI    145.0 Tier 8    -9.2  
+ 16   153 WR   Rashid Shaheed           SEA    148.6 Tier 10   -13.7  
+
+Position mix: QB 3 / RB 5 / WR 6 / TE 2  (total 16)
+
+Projected Week 1 lineup + bench:
+  QB         Josh Allen (BUF)
+  RB1        Breece Hall (NYJ)
+  RB2        David Montgomery (HOU)
+  WR1        George Pickens (DAL)
+  WR2        Jameson Williams (DET)
+  TE         Brock Bowers (LV)
+  FLEX1      Trey McBride (ARI)
+  FLEX2      Rhamondre Stevenson (NE)
+  SUPERFLEX  Dak Prescott (DAL)
+  BN1        Brian Thomas Jr. (JAC) (WR)
+  BN2        Michael Pittman Jr. (PIT) (WR)
+  BN3        Kenny Gainwell (TB) (RB)
+  BN4        Jakobi Meyers (JAC) (WR)
+  BN5        Tyler Allgeier (ARI) (RB)
+  BN6        Bryce Young (CAR) (QB)
+  BN7        Rashid Shaheed (SEA) (WR)
+
+==============================================================================
+SIMULATION 3  (seed=777)
+==============================================================================
+ Rd  Pick Pos  Player                   Team     ADP  Tier    GVal  Note
+  1     8 RB   Jahmyr Gibbs             DET      3.5 Tier 1   293.1  
+  2    13 TE   Brock Bowers             LV      27.1 Tier 1   220.2  SLIDE (ADP 27 vs pick 13)
+  3    28 TE   Trey McBride             ARI     31.6 Tier 2   123.8  
+  4    33 WR   Chris Olave              NO      37.5 Tier 3    45.3  
+  5    48 QB   Trevor Lawrence          JAC     42.1 Tier 3    45.1  
+  6    53 WR   Garrett Wilson           NYJ     54.2 Tier 4    18.8  
+  7    68 RB   Bucky Irving             TB      61.7 Tier 5    11.6  
+  8    73 TE   Tucker Kraft             GB      77.5 Tier 3    50.1  
+  9    88 WR   Brian Thomas Jr.         JAC     92.0 Tier 6     0.9  
+ 10    93 RB   Rhamondre Stevenson      NE      87.6 Tier 6     2.9  
+ 11   108 WR   Courtland Sutton         DEN    101.5 Tier 7    -1.8  
+ 12   113 QB   Malik Willis             MIA    106.6 Tier 7    -2.4  
+ 13   128 RB   Rachaad White            WAS    135.7 Tier 8    -7.4  
+ 14   133 WR   Jakobi Meyers            JAC    136.2 Tier 8    -8.7  
+ 15   148 WR   Jalen Coker              CAR    142.0 Tier 9   -10.8  
+ 16   153 RB   Jonah Coleman            DEN    154.6 Tier 9   -11.0  
+
+Position mix: QB 2 / RB 5 / WR 6 / TE 3  (total 16)
+
+Projected Week 1 lineup + bench:
+  QB         Trevor Lawrence (JAC)
+  RB1        Jahmyr Gibbs (DET)
+  RB2        Bucky Irving (TB)
+  WR1        Chris Olave (NO)
+  WR2        Garrett Wilson (NYJ)
+  TE         Brock Bowers (LV)
+  FLEX1      Trey McBride (ARI)
+  FLEX2      Tucker Kraft (GB)
+  SUPERFLEX  Rhamondre Stevenson (NE)
+  BN1        Brian Thomas Jr. (JAC) (WR)
+  BN2        Courtland Sutton (DEN) (WR)
+  BN3        Malik Willis (MIA) (QB)
+  BN4        Rachaad White (WAS) (RB)
+  BN5        Jakobi Meyers (JAC) (WR)
+  BN6        Jalen Coker (CAR) (WR)
+  BN7        Jonah Coleman (DEN) (RB)

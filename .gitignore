@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# App runtime state (per-draft, regenerated on use -- not source)
+draft_state.json
+
+# Scratch / editor cruft
+scratch_*
+*.tmp
+.DS_Store

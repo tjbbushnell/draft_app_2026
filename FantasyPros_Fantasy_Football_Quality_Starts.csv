@@ -1,0 +1,661 @@
+ECR,Player,POOR #,POOR %,QUALITY #,QUALITY %,GREAT #,GREAT %,QUALITY + GREAT #,QUALITY + GREAT %
+1,Jahmyr Gibbs   RB - DET,6,35%,6,35%,5,29%,11,65%
+2,Ja'Marr Chase   WR - CIN,5,31%,5,31%,6,38%,11,69%
+3,Bijan Robinson   RB - ATL,5,29%,4,24%,8,47%,12,71%
+4,Puka Nacua   WR - LAR,3,19%,5,31%,8,50%,13,81%
+5,Jaxon Smith-Njigba   WR - SEA,2,12%,6,35%,9,53%,15,88%
+6,Amon-Ra St. Brown   WR - DET,6,35%,4,24%,7,41%,11,65%
+7,Jonathan Taylor   RB - IND,6,35%,4,24%,7,41%,11,65%
+8,CeeDee Lamb   WR - DAL,6,43%,6,43%,2,14%,8,57%
+9,James Cook III   RB - BUF,6,35%,4,24%,7,41%,11,65%
+10,Christian McCaffrey   RB - SF,3,18%,6,35%,8,47%,14,82%
+11,Justin Jefferson   WR - MIN,10,59%,7,41%,0,0%,7,41%
+12,A.J. Brown   WR - NE,7,47%,4,27%,4,27%,8,53%
+13,Derrick Henry   RB - BAL,7,41%,4,24%,6,35%,10,59%
+14,Nico Collins   WR - HOU,7,47%,3,20%,5,33%,8,53%
+15,Drake London   WR - ATL,6,50%,1,8%,5,42%,6,50%
+16,Saquon Barkley   RB - PHI,8,50%,5,31%,3,19%,8,50%
+17,Brock Bowers   TE - LV,6,50%,4,33%,2,17%,6,50%
+18,George Pickens   WR - DAL,7,41%,5,29%,5,29%,10,59%
+19,Chase Brown   RB - CIN,7,41%,7,41%,3,18%,10,59%
+20,Kenneth Walker III   RB - KC,11,65%,4,24%,2,12%,6,35%
+21,Trey McBride   TE - ARI,5,29%,4,24%,8,47%,12,71%
+22,De'Von Achane   RB - MIA,2,13%,10,63%,4,25%,14,88%
+23,Omarion Hampton   RB - LAC,4,44%,3,33%,2,22%,5,56%
+24,Josh Allen   QB - BUF,4,24%,4,24%,9,53%,13,76%
+25,Chris Olave   WR - NO,9,56%,2,13%,5,31%,7,44%
+26,Malik Nabers   WR - NYG,3,75%,0,0%,1,25%,1,25%
+27,Ashton Jeanty   RB - LV,10,59%,5,29%,2,12%,7,41%
+28,Lamar Jackson   QB - BAL,5,38%,4,31%,4,31%,8,62%
+29,Kyren Williams   RB - LAR,6,35%,8,47%,3,18%,11,65%
+30,Zay Flowers   WR - BAL,9,53%,5,29%,3,18%,8,47%
+31,Rashee Rice   WR - KC,3,38%,0,0%,5,63%,5,63%
+32,Tee Higgins   WR - CIN,6,40%,6,40%,3,20%,9,60%
+33,DeVonta Smith   WR - PHI,10,59%,6,35%,1,6%,7,41%
+34,Javonte Williams   RB - DAL,6,38%,6,38%,4,25%,10,63%
+35,Drake Maye   QB - NE,1,6%,9,53%,7,41%,16,94%
+36,Colston Loveland   TE - CHI,11,69%,2,13%,3,19%,5,31%
+37,Tetairoa McMillan   WR - CAR,10,59%,5,29%,2,12%,7,41%
+38,Emeka Egbuka   WR - TB,11,65%,2,12%,4,24%,6,35%
+39,Josh Jacobs   RB - GB,5,33%,6,40%,4,27%,10,67%
+40,Ladd McConkey   WR - LAC,10,63%,3,19%,3,19%,6,38%
+41,Breece Hall   RB - NYJ,9,56%,4,25%,3,19%,7,44%
+42,Jaylen Waddle   WR - DEN,8,50%,5,31%,3,19%,8,50%
+43,Joe Burrow   QB - CIN,3,38%,3,38%,2,25%,5,63%
+44,Davante Adams   WR - LAR,5,36%,3,21%,6,43%,9,64%
+46,Travis Etienne Jr.   RB - NO,6,35%,6,35%,5,29%,11,65%
+47,Garrett Wilson   WR - NYJ,3,43%,1,14%,3,43%,4,57%
+48,Jameson Williams   WR - DET,9,53%,3,18%,5,29%,8,47%
+49,Terry McLaurin   WR - WAS,7,70%,2,20%,1,10%,3,30%
+50,D'Andre Swift   RB - CHI,8,50%,3,19%,5,31%,8,50%
+51,Jayden Daniels   QB - WAS,1,14%,6,86%,0,0%,6,86%
+52,Christian Watson   WR - GB,5,50%,1,10%,4,40%,5,50%
+53,Quinshon Judkins   RB - CLE,8,57%,4,29%,2,14%,6,43%
+54,Jalen Hurts   QB - PHI,5,31%,6,38%,5,31%,11,69%
+55,Cam Skattebo   RB - NYG,3,38%,3,38%,2,25%,5,63%
+56,Bucky Irving   RB - TB,5,50%,4,40%,1,10%,5,50%
+57,Luther Burden III   WR - CHI,12,80%,1,7%,2,13%,3,20%
+58,David Montgomery   RB - HOU,12,71%,4,24%,1,6%,5,29%
+59,Rome Odunze   WR - CHI,6,50%,4,33%,2,17%,6,50%
+60,DJ Moore   WR - BUF,12,71%,1,6%,4,24%,5,29%
+61,Mike Evans   WR - SF,4,50%,4,50%,0,0%,4,50%
+62,Tyler Warren   TE - IND,9,53%,5,29%,3,18%,8,47%
+63,Bhayshul Tuten   RB - JAC,13,87%,2,13%,0,0%,2,13%
+65,Tucker Kraft   TE - GB,3,38%,2,25%,3,38%,5,63%
+66,Caleb Williams   QB - CHI,5,29%,7,41%,5,29%,12,71%
+67,TreVeyon Henderson   RB - NE,12,71%,2,12%,3,18%,5,29%
+68,Justin Herbert   QB - LAC,6,38%,5,31%,5,31%,10,63%
+69,Parker Washington   WR - JAC,10,63%,3,19%,3,19%,6,38%
+70,Marvin Harrison Jr.   WR - ARI,7,58%,4,33%,1,8%,5,42%
+71,Rhamondre Stevenson   RB - NE,8,57%,4,29%,2,14%,6,43%
+72,Dak Prescott   QB - DAL,5,29%,6,35%,6,35%,12,71%
+73,Trevor Lawrence   QB - JAC,4,24%,8,47%,5,29%,13,76%
+74,Brian Thomas Jr.   WR - JAC,9,64%,4,29%,1,7%,5,36%
+75,Tony Pollard   RB - TEN,13,76%,3,18%,1,6%,4,24%
+76,Jaylen Warren   RB - PIT,8,50%,7,44%,1,6%,8,50%
+78,DK Metcalf   WR - PIT,6,40%,6,40%,3,20%,9,60%
+79,Sam LaPorta   TE - DET,5,56%,1,11%,3,33%,4,44%
+80,J.K. Dobbins   RB - DEN,4,40%,6,60%,0,0%,6,60%
+81,Rico Dowdle   RB - PIT,12,71%,2,12%,3,18%,5,29%
+82,Courtland Sutton   WR - DEN,8,47%,5,29%,4,24%,9,53%
+84,Quentin Johnston   WR - LAC,5,36%,6,43%,3,21%,9,64%
+85,Blake Corum   RB - LAR,12,71%,4,24%,1,6%,5,29%
+86,Alec Pierce   WR - IND,8,53%,3,20%,4,27%,7,47%
+87,Harold Fannin Jr.   TE - CLE,8,50%,5,31%,3,19%,8,50%
+88,Kyle Pitts Sr.   TE - ATL,12,71%,2,12%,3,18%,5,29%
+89,Jacory Croskey-Merritt   RB - WAS,13,76%,2,12%,2,12%,4,24%
+90,Chris Godwin Jr.   WR - TB,7,78%,1,11%,1,11%,2,22%
+91,George Kittle   TE - SF,3,27%,4,36%,4,36%,8,73%
+92,Brock Purdy   QB - SF,2,22%,4,44%,3,33%,7,78%
+93,Jordan Mason   RB - MIN,12,75%,3,19%,1,6%,4,25%
+94,Jaxson Dart   QB - NYG,4,29%,4,29%,6,43%,10,71%
+95,Bo Nix   QB - DEN,6,35%,7,41%,4,24%,11,65%
+96,Chuba Hubbard   RB - CAR,12,80%,2,13%,1,7%,3,20%
+97,Michael Wilson   WR - ARI,10,59%,3,18%,4,24%,7,41%
+98,Jordan Addison   WR - MIN,8,57%,6,43%,0,0%,6,43%
+99,Patrick Mahomes II   QB - KC,5,36%,1,7%,8,57%,9,64%
+100,Dalton Kincaid   TE - BUF,6,50%,4,33%,2,17%,6,50%
+101,Kyle Monangai   RB - CHI,13,76%,2,12%,2,12%,4,24%
+102,Matthew Stafford   QB - LAR,5,29%,4,24%,8,47%,12,71%
+103,Jayden Reed   WR - GB,6,86%,1,14%,0,0%,1,14%
+104,Jared Goff   QB - DET,6,35%,7,41%,4,24%,11,65%
+105,Michael Pittman Jr.   WR - PIT,9,53%,5,29%,3,18%,8,47%
+106,Travis Kelce   TE - KC,9,53%,5,29%,3,18%,8,47%
+108,RJ Harvey   RB - DEN,9,53%,5,29%,3,18%,8,47%
+109,Dallas Goedert   TE - PHI,6,40%,5,33%,4,27%,9,60%
+110,Kyler Murray   QB - MIN,2,40%,3,60%,0,0%,3,60%
+111,Josh Downs   WR - IND,13,81%,3,19%,0,0%,3,19%
+112,Rachaad White   RB - WAS,14,82%,2,12%,1,6%,3,18%
+113,Kenny Gainwell   RB - TB,11,65%,3,18%,3,18%,6,35%
+114,Jakobi Meyers   WR - JAC,12,75%,3,19%,1,6%,4,25%
+115,Isaiah Likely   TE - NYG,12,86%,2,14%,0,0%,2,14%
+116,Chris Rodriguez Jr.   RB - JAC,10,77%,3,23%,0,0%,3,23%
+117,Jordan Love   QB - GB,6,40%,6,40%,3,20%,9,60%
+118,Baker Mayfield   QB - TB,7,41%,9,53%,1,6%,10,59%
+119,Aaron Jones Sr.   RB - MIN,9,75%,3,25%,0,0%,3,25%
+120,Mark Andrews   TE - BAL,13,76%,1,6%,3,18%,4,24%
+121,Wan'Dale Robinson   WR - TEN,10,63%,3,19%,3,19%,6,38%
+122,Xavier Worthy   WR - KC,12,86%,2,14%,0,0%,2,14%
+123,Stefon Diggs   WR - WAS,10,59%,4,24%,3,18%,7,41%
+124,Romeo Doubs   WR - NE,11,69%,3,19%,2,13%,5,31%
+125,Tyler Shough   QB - NO,4,36%,7,64%,0,0%,7,64%
+126,Matthew Golden   WR - GB,13,93%,1,7%,0,0%,1,7%
+127,Tyler Allgeier   RB - ARI,13,76%,3,18%,1,6%,4,24%
+129,Woody Marks   RB - HOU,12,75%,3,19%,1,6%,4,25%
+130,Malik Willis   QB - MIA,3,75%,0,0%,1,25%,1,25%
+131,Jake Ferguson   TE - DAL,9,53%,6,35%,2,12%,8,47%
+132,Jalen Coker   WR - CAR,8,73%,3,27%,0,0%,3,27%
+134,Juwan Johnson   TE - NO,10,59%,6,35%,1,6%,7,41%
+136,Rashid Shaheed   WR - SEA,14,78%,3,17%,1,6%,4,22%
+137,Tank Bigsby   RB - PHI,14,88%,2,13%,0,0%,2,13%
+138,Sam Darnold   QB - SEA,8,47%,6,35%,3,18%,9,53%
+139,Khalil Shakir   WR - BUF,12,75%,3,19%,1,6%,4,25%
+140,Zach Charbonnet   RB - SEA,7,44%,7,44%,2,13%,9,56%
+141,Deebo Samuel Sr.   WR - SF,9,56%,3,19%,4,25%,7,44%
+142,Keaton Mitchell   RB - LAC,13,100%,0,0%,0,0%,0,0%
+143,C.J. Stroud   QB - HOU,8,57%,4,29%,2,14%,6,43%
+145,Daniel Jones   QB - IND,2,15%,8,62%,3,23%,11,85%
+146,Hunter Henry   TE - NE,9,53%,6,35%,2,12%,8,47%
+147,Tyjae Spears   RB - TEN,11,85%,2,15%,0,0%,2,15%
+148,Brian Robinson Jr.   RB - ATL,15,88%,2,12%,0,0%,2,12%
+149,Isiah Pacheco   RB - DET,11,85%,2,15%,0,0%,2,15%
+150,Brenton Strange   TE - JAC,8,67%,3,25%,1,8%,4,33%
+151,Braelon Allen   RB - NYJ,4,100%,0,0%,0,0%,0,0%
+154,Cam Ward   QB - TEN,14,82%,2,12%,1,6%,3,18%
+156,Tyrone Tracy Jr.   RB - NYG,10,67%,3,20%,2,13%,5,33%
+158,Adonai Mitchell   WR - NYJ,14,88%,1,6%,1,6%,2,13%
+159,Tre Tucker   WR - LV,14,82%,2,12%,1,6%,3,18%
+160,Chig Okonkwo   TE - WAS,14,82%,2,12%,1,6%,3,18%
+161,Dylan Sampson   RB - CLE,14,93%,1,7%,0,0%,1,7%
+162,Kayshon Boutte   WR - HOU,9,64%,4,29%,1,7%,5,36%
+163,Alvin Kamara   RB - NO,9,82%,2,18%,0,0%,2,18%
+164,Jalen McMillan   WR - TB,3,75%,1,25%,0,0%,1,25%
+166,Jauan Jennings   WR - MIN,7,47%,6,40%,2,13%,8,53%
+167,Jerry Jeudy   WR - CLE,15,88%,1,6%,1,6%,2,12%
+168,Terrance Ferguson   TE - LAR,10,77%,2,15%,1,8%,3,23%
+171,Dalton Schultz   TE - HOU,11,65%,4,24%,2,12%,6,35%
+173,Bryce Young   QB - CAR,9,56%,6,38%,1,6%,7,44%
+175,Tre' Harris   WR - LAC,17,100%,0,0%,0,0%,0,0%
+176,Dontayvion Wicks   WR - PHI,13,93%,0,0%,1,7%,1,7%
+177,Oronde Gadsden II   TE - LAC,11,73%,2,13%,2,13%,4,27%
+178,AJ Barner   TE - SEA,9,53%,6,35%,2,12%,8,47%
+182,Ray Davis   RB - BUF,16,94%,0,0%,1,6%,1,6%
+183,Calvin Ridley   WR - TEN,6,86%,1,14%,0,0%,1,14%
+184,Kimani Vidal   RB - LAC,8,62%,2,15%,3,23%,5,38%
+186,Ryan Flournoy   WR - DAL,13,87%,1,7%,1,7%,2,13%
+188,Jalen Nailor   WR - LV,14,82%,1,6%,2,12%,3,18%
+194,Travis Hunter   WR - JAC,6,86%,0,0%,1,14%,1,14%
+199,Pat Bryant   WR - DEN,13,87%,2,13%,0,0%,2,13%
+200,Sean Tucker   RB - TB,16,94%,0,0%,1,6%,1,6%
+201,Jacoby Brissett   QB - ARI,3,21%,9,64%,2,14%,11,79%
+202,Malik Washington   WR - MIA,13,76%,4,24%,0,0%,4,24%
+205,Rashod Bateman   WR - BAL,12,92%,1,8%,0,0%,1,8%
+206,Jaydon Blue   RB - DAL,4,80%,1,20%,0,0%,1,20%
+208,Keenan Allen   WR - IND,13,76%,3,18%,1,6%,4,24%
+211,T.J. Hockenson   TE - MIN,11,73%,4,27%,0,0%,4,27%
+212,Emanuel Wilson   RB - SEA,15,88%,1,6%,1,6%,2,12%
+213,Jaylin Noel   WR - HOU,16,94%,1,6%,0,0%,1,6%
+214,Isaac TeSlaa   WR - DET,13,76%,4,24%,0,0%,4,24%
+216,James Conner   RB - ARI,2,50%,2,50%,0,0%,2,50%
+221,Pat Freiermuth   TE - PIT,14,82%,2,12%,1,6%,3,18%
+222,Darnell Mooney   WR - NYG,14,93%,1,7%,0,0%,1,7%
+224,Jaylen Wright   RB - MIA,9,82%,2,18%,0,0%,2,18%
+225,George Holani   RB - SEA,10,100%,0,0%,0,0%,0,0%
+229,Gunnar Helm   TE - TEN,14,88%,2,13%,0,0%,2,13%
+230,Aaron Rodgers   QB - PIT,8,50%,6,38%,2,13%,8,50%
+233,Troy Franklin   WR - DEN,11,65%,3,18%,3,18%,6,35%
+234,Geno Smith   QB - NYJ,12,80%,1,7%,2,13%,3,20%
+235,Cooper Kupp   WR - SEA,13,81%,3,19%,0,0%,3,19%
+237,Cade Otton   TE - TB,12,75%,3,19%,1,6%,4,25%
+240,David Njoku   TE - LAC,9,75%,2,17%,1,8%,3,25%
+242,Greg Dulcich   TE - MIA,9,90%,0,0%,1,10%,1,10%
+243,Najee Harris   RB - NYG,3,100%,0,0%,0,0%,0,0%
+244,Ollie Gordon II   RB - MIA,15,88%,2,12%,0,0%,2,12%
+245,Keon Coleman   WR - BUF,11,85%,1,8%,1,8%,2,15%
+251,Justice Hill   RB - BAL,9,90%,0,0%,1,10%,1,10%
+253,Malik Davis   RB - DAL,9,90%,1,10%,0,0%,1,10%
+254,Colby Parkinson   TE - LAR,9,60%,4,27%,2,13%,6,40%
+255,Jordan James   RB - SF,2,100%,0,0%,0,0%,0,0%
+256,Evan Engram   TE - DEN,14,88%,2,13%,0,0%,2,13%
+257,Chimere Dike   WR - TEN,12,71%,4,24%,1,6%,5,29%
+258,Devaughn Vele   WR - NO,12,92%,0,0%,1,8%,1,8%
+259,Elic Ayomanor   WR - TEN,13,81%,3,19%,0,0%,3,19%
+260,Samaje Perine   RB - CIN,14,93%,1,7%,0,0%,1,7%
+262,Isaiah Davis   RB - NYJ,14,88%,2,13%,0,0%,2,13%
+263,Tyquan Thornton   WR - KC,11,79%,3,21%,0,0%,3,21%
+264,Chris Brooks   RB - GB,17,100%,0,0%,0,0%,0,0%
+266,Tory Horton   WR - SEA,4,50%,2,25%,2,25%,4,50%
+268,Jack Bech   WR - LV,16,100%,0,0%,0,0%,0,0%
+270,Ty Johnson   RB - BUF,15,88%,1,6%,1,6%,2,12%
+274,Darius Slayton   WR - NYG,12,86%,2,14%,0,0%,2,14%
+275,Theo Johnson   TE - NYG,8,53%,5,33%,2,13%,7,47%
+276,Christian Kirk   WR - SF,12,92%,1,8%,0,0%,1,8%
+277,Tua Tagovailoa   QB - ATL,9,64%,4,29%,1,7%,5,36%
+278,Mason Taylor   TE - NYJ,10,77%,3,23%,0,0%,3,23%
+282,DJ Giddens   RB - IND,9,100%,0,0%,0,0%,0,0%
+283,Marvin Mims Jr.   WR - DEN,13,81%,2,13%,1,6%,3,19%
+284,LeQuint Allen Jr.   RB - JAC,17,100%,0,0%,0,0%,0,0%
+285,Devin Neal   RB - NO,8,89%,1,11%,0,0%,1,11%
+286,Michael Penix Jr.   QB - ATL,6,67%,2,22%,1,11%,3,33%
+287,Xavier Legette   WR - CAR,12,80%,1,7%,2,13%,3,20%
+288,Kendre Miller   RB - NO,6,86%,1,14%,0,0%,1,14%
+291,Kyle Williams   WR - NE,14,82%,3,18%,0,0%,3,18%
+292,Emari Demercado   RB - KC,12,92%,1,8%,0,0%,1,8%
+293,Kirk Cousins   QB - LV,7,70%,2,20%,1,10%,3,30%
+294,Mike Gesicki   TE - CIN,11,85%,1,8%,1,8%,2,15%
+296,Shedeur Sanders   QB - CLE,7,88%,0,0%,1,13%,1,13%
+297,Kaleb Johnson   RB - PIT,10,100%,0,0%,0,0%,0,0%
+298,Hollywood Brown   WR - PHI,12,75%,3,19%,1,6%,4,25%
+299,Devin Singletary   RB - NYG,13,76%,4,24%,0,0%,4,24%
+300,Brashard Smith   RB - KC,17,100%,0,0%,0,0%,0,0%
+301,Trey Benson   RB - ARI,5,100%,0,0%,0,0%,0,0%
+302,Mack Hollins   WR - NE,13,87%,2,13%,0,0%,2,13%
+304,Isaiah Bond   WR - CLE,15,94%,1,6%,0,0%,1,6%
+307,Trevor Etienne   RB - CAR,17,100%,0,0%,0,0%,0,0%
+308,Jake Tonges   TE - SF,12,75%,2,13%,2,13%,4,25%
+310,Jerome Ford   RB - WAS,13,100%,0,0%,0,0%,0,0%
+311,Darren Waller   TE - CAR,5,56%,1,11%,3,33%,4,44%
+313,Andrei Iosivas   WR - CIN,14,82%,3,18%,0,0%,3,18%
+314,Darnell Washington   TE - PIT,15,94%,1,6%,0,0%,1,6%
+315,Tyreek Hill   WR,2,50%,2,50%,0,0%,2,50%
+316,Isaac Guerendo   RB - SF,8,100%,0,0%,0,0%,0,0%
+318,Audric Estime   RB - NO,5,71%,2,29%,0,0%,2,29%
+319,DeMario Douglas   WR - NE,15,88%,1,6%,1,6%,2,12%
+321,Michael Mayer   TE - LV,11,85%,1,8%,1,8%,2,15%
+322,Tahj Brooks   RB - CIN,12,100%,0,0%,0,0%,0,0%
+323,Jaleel McLaughlin   RB - DEN,8,100%,0,0%,0,0%,0,0%
+324,Jahan Dotson   WR - ATL,16,94%,1,6%,0,0%,1,6%
+325,Charlie Kolar   TE - LAC,15,88%,2,12%,0,0%,2,12%
+326,Will Shipley   RB - PHI,15,100%,0,0%,0,0%,0,0%
+327,Elijah Arroyo   TE - SEA,12,92%,1,8%,0,0%,1,8%
+330,Jalen Tolbert   WR - MIA,12,92%,1,8%,0,0%,1,8%
+331,Xavier Hutchinson   WR - HOU,14,82%,2,12%,1,6%,3,18%
+332,Cole Kmet   TE - CHI,14,88%,2,13%,0,0%,2,13%
+333,Tyler Higbee   TE - LAR,7,70%,2,20%,1,10%,3,30%
+336,Luke McCaffrey   WR - WAS,6,67%,3,33%,0,0%,3,33%
+337,Tez Johnson   WR - TB,12,75%,3,19%,1,6%,4,25%
+338,Konata Mumpfield   WR - LAR,17,100%,0,0%,0,0%,0,0%
+339,Kareem Hunt   RB,11,65%,5,29%,1,6%,6,35%
+341,J.J. McCarthy   QB - MIN,5,50%,3,30%,2,20%,5,50%
+342,Dawson Knox   TE - BUF,13,76%,2,12%,2,12%,4,24%
+344,Cedric Tillman   WR,11,85%,2,15%,0,0%,2,15%
+346,Kendrick Bourne   WR - ARI,14,88%,0,0%,2,13%,2,13%
+348,Noah Gray   TE - KC,16,100%,0,0%,0,0%,0,0%
+349,Olamide Zaccheaus   WR - ATL,15,94%,1,6%,0,0%,1,6%
+352,Jalen Royals   WR - KC,7,100%,0,0%,0,0%,0,0%
+353,Joshua Palmer   WR - BUF,12,100%,0,0%,0,0%,0,0%
+354,Treylon Burks   WR - WAS,8,100%,0,0%,0,0%,0,0%
+355,Mac Jones   QB - SF,6,55%,4,36%,1,9%,5,45%
+357,Ja'Tavion Sanders   TE - CAR,12,92%,1,8%,0,0%,1,8%
+359,Bam Knight   RB - ARI,9,75%,3,25%,0,0%,3,25%
+363,Jawhar Jordan   RB - HOU,3,75%,1,25%,0,0%,1,25%
+364,Justin Fields   QB - KC,4,44%,2,22%,3,33%,5,56%
+365,KaVontae Turpin   WR - DAL,13,87%,1,7%,1,7%,2,13%
+367,Michael Carter   RB - TEN,12,92%,1,8%,0,0%,1,8%
+371,Kalif Raymond   WR - CHI,14,93%,1,7%,0,0%,1,7%
+375,Raheim Sanders   RB - CLE,5,100%,0,0%,0,0%,0,0%
+376,Savion Williams   WR - GB,12,100%,0,0%,0,0%,0,0%
+379,Dont'e Thornton Jr.   WR - LV,15,100%,0,0%,0,0%,0,0%
+380,Phil Mafah   RB - DAL,1,100%,0,0%,0,0%,0,0%
+381,Demarcus Robinson   WR - SF,13,93%,1,7%,0,0%,1,7%
+383,Anthony Richardson Sr.   QB - IND,2,100%,0,0%,0,0%,0,0%
+388,Noah Fant   TE - NO,12,80%,3,20%,0,0%,3,20%
+390,Devontez Walker   WR - BAL,9,82%,1,9%,1,9%,2,18%
+391,Tutu Atwell   WR - LAR,9,90%,0,0%,1,10%,1,10%
+392,Nick Westbrook-Ikhine   WR - IND,15,100%,0,0%,0,0%,0,0%
+393,Jaylin Lane   WR - WAS,15,100%,0,0%,0,0%,0,0%
+395,Joe Flacco   QB - CIN,9,69%,1,8%,3,23%,4,31%
+396,Ashton Dulin   WR - IND,12,100%,0,0%,0,0%,0,0%
+397,Jordan Whittington   WR - LAR,17,100%,0,0%,0,0%,0,0%
+398,John Metchie III   WR - CAR,14,88%,2,13%,0,0%,2,13%
+400,Luke Musgrave   TE - GB,17,100%,0,0%,0,0%,0,0%
+401,Roschon Johnson   RB - CHI,6,100%,0,0%,0,0%,0,0%
+405,Tommy Tremble   TE - CAR,15,88%,2,12%,0,0%,2,12%
+407,Rasheen Ali   RB - BAL,15,100%,0,0%,0,0%,0,0%
+411,Kyle Juszczyk   RB - SF,17,100%,0,0%,0,0%,0,0%
+413,Mitchell Evans   TE - CAR,16,94%,1,6%,0,0%,1,6%
+414,Ben Sinnott   TE - WAS,16,100%,0,0%,0,0%,0,0%
+417,Jameis Winston   QB - NYG,2,67%,0,0%,1,33%,1,33%
+418,Sione Vaki   RB - DET,8,100%,0,0%,0,0%,0,0%
+419,Austin Ekeler   RB,3,100%,0,0%,0,0%,0,0%
+420,Daniel Bellinger   TE - TEN,14,88%,1,6%,1,6%,2,13%
+421,Dameon Pierce   RB - PHI,5,100%,0,0%,0,0%,0,0%
+422,Dyami Brown   WR - WAS,14,93%,1,7%,0,0%,1,7%
+423,Marcus Mariota   QB - WAS,7,58%,4,33%,1,8%,5,42%
+424,John Bates   TE - WAS,14,93%,1,7%,0,0%,1,7%
+427,Greg Dortch   WR - DET,10,83%,2,17%,0,0%,2,17%
+428,Joe Milton III   QB - DAL,4,100%,0,0%,0,0%,0,0%
+429,Austin Hooper   TE - ATL,14,88%,2,13%,0,0%,2,13%
+432,Isaiah Williams   WR - NYJ,14,93%,1,7%,0,0%,1,7%
+433,Terrell Jennings   RB,5,83%,1,17%,0,0%,1,17%
+434,Tyler Goodson   RB - ATL,11,100%,0,0%,0,0%,0,0%
+436,Elijah Higgins   TE - ARI,16,94%,1,6%,0,0%,1,6%
+437,Zavier Scott   RB - MIN,10,91%,1,9%,0,0%,1,9%
+438,Hunter Luepke   RB - DAL,17,100%,0,0%,0,0%,0,0%
+441,Dylan Laube   RB - LV,17,100%,0,0%,0,0%,0,0%
+442,Jeremy McNichols   RB - WAS,16,94%,1,6%,0,0%,1,6%
+445,Jonnu Smith   TE - GB,14,82%,3,18%,0,0%,3,18%
+446,Van Jefferson   WR - WAS,15,94%,1,6%,0,0%,1,6%
+452,Ronnie Rivers   RB - LAR,7,100%,0,0%,0,0%,0,0%
+453,Taysom Hill   TE,12,92%,0,0%,1,8%,1,8%
+454,DeAndre Hopkins   WR - BAL,15,88%,2,12%,0,0%,2,12%
+455,Antonio Gibson   RB,5,100%,0,0%,0,0%,0,0%
+456,Jahdae Walker   WR - CHI,5,71%,2,29%,0,0%,2,29%
+457,Mitch Tinsley   WR - CIN,12,92%,1,8%,0,0%,1,8%
+458,Jackson Hawes   TE - BUF,15,88%,2,12%,0,0%,2,12%
+459,Alec Ingold   RB - LAC,17,100%,0,0%,0,0%,0,0%
+460,Josh Oliver   TE - MIN,12,80%,2,13%,1,7%,3,20%
+461,Josh Williams   RB - TB,2,100%,0,0%,0,0%,0,0%
+462,Tyler Lockett   WR - LV,17,100%,0,0%,0,0%,0,0%
+464,Zach Ertz   TE,8,62%,4,31%,1,8%,5,38%
+465,Elijah Moore   WR - PHI,8,89%,1,11%,0,0%,1,11%
+466,Jordan Watkins   WR - SF,5,100%,0,0%,0,0%,0,0%
+467,Kene Nwangwu   RB - NYJ,10,100%,0,0%,0,0%,0,0%
+469,Marquez Valdes-Scantling   WR - DAL,10,100%,0,0%,0,0%,0,0%
+470,Adam Prentice   RB - DEN,17,100%,0,0%,0,0%,0,0%
+471,Khalil Herbert   RB - SF,5,100%,0,0%,0,0%,0,0%
+473,Riley Leonard   QB - IND,4,80%,1,20%,0,0%,1,20%
+474,British Brooks   RB - HOU,13,100%,0,0%,0,0%,0,0%
+475,Michael Burton   RB - CLE,1,100%,0,0%,0,0%,0,0%
+477,Jacob Cowing   WR - SF,1,100%,0,0%,0,0%,0,0%
+479,Lew Nichols III   RB - PIT,2,100%,0,0%,0,0%,0,0%
+480,Adam Trautman   TE - DEN,16,94%,1,6%,0,0%,1,6%
+482,Patrick Ricard   RB - NYG,12,100%,0,0%,0,0%,0,0%
+484,Jacob Saylors   RB - DET,11,100%,0,0%,0,0%,0,0%
+485,Tai Felton   WR - MIN,14,100%,0,0%,0,0%,0,0%
+486,Xavier Smith   WR - LAR,15,94%,1,6%,0,0%,1,6%
+490,Chris Blair   WR - ATL,3,100%,0,0%,0,0%,0,0%
+492,Tim Patrick   WR - NYJ,13,81%,2,13%,1,6%,3,19%
+493,Jimmy Horn Jr.   WR - CAR,13,100%,0,0%,0,0%,0,0%
+494,Tyrod Taylor   QB - GB,4,67%,2,33%,0,0%,2,33%
+495,Xavier Restrepo   WR - TEN,2,100%,0,0%,0,0%,0,0%
+497,Reggie Gilliam   RB - NE,17,100%,0,0%,0,0%,0,0%
+498,Jake Browning   QB - TB,3,60%,2,40%,0,0%,2,40%
+499,Brock Wright   TE - DET,9,82%,2,18%,0,0%,2,18%
+500,Durham Smythe   TE - BAL,17,100%,0,0%,0,0%,0,0%
+504,Gardner Minshew II   QB - ARI,4,100%,0,0%,0,0%,0,0%
+505,Drew Sample   TE - CIN,16,94%,1,6%,0,0%,1,6%
+506,Cade Stover   TE - HOU,9,100%,0,0%,0,0%,0,0%
+508,Tyson Bagent   QB - CHI,3,100%,0,0%,0,0%,0,0%
+510,KeAndre Lambert-Smith   WR - LAC,10,100%,0,0%,0,0%,0,0%
+511,Tanner Hudson   TE - CIN,11,85%,2,15%,0,0%,2,15%
+512,Velus Jones Jr.   WR - SEA,6,100%,0,0%,0,0%,0,0%
+,Feleipe Franks   QB - CAR,12,100%,0,0%,0,0%,0,0%
+,Zach Wilson   QB - NO,4,100%,0,0%,0,0%,0,0%
+,Spencer Rattler   QB - NO,8,89%,1,11%,0,0%,1,11%
+,Russell Wilson   QB,5,83%,0,0%,1,17%,1,17%
+,Jalen Milroe   QB - SEA,4,100%,0,0%,0,0%,0,0%
+,Cooper Rush   QB - ATL,4,100%,0,0%,0,0%,0,0%
+,Dillon Gabriel   QB - CLE,8,80%,2,20%,0,0%,2,20%
+,Kyle Allen   QB - BUF,4,100%,0,0%,0,0%,0,0%
+,Mitchell Trubisky   QB - TEN,3,75%,0,0%,1,25%,1,25%
+,Mason Rudolph   QB - PIT,5,100%,0,0%,0,0%,0,0%
+,Logan Woodside   QB,3,100%,0,0%,0,0%,0,0%
+,Jimmy Garoppolo   QB - LAR,5,100%,0,0%,0,0%,0,0%
+,Andy Dalton   QB - PHI,4,100%,0,0%,0,0%,0,0%
+,Carson Wentz   QB - MIN,3,60%,1,20%,1,20%,2,40%
+,Max Brosmer   QB - MIN,7,100%,0,0%,0,0%,0,0%
+,Brett Rypien   QB - HOU,1,100%,0,0%,0,0%,0,0%
+,Drew Lock   QB - SEA,5,100%,0,0%,0,0%,0,0%
+,Joshua Dobbs   QB - DET,4,100%,0,0%,0,0%,0,0%
+,Davis Mills   QB - HOU,4,67%,1,17%,1,17%,2,33%
+,Trey Lance   QB - LAC,4,100%,0,0%,0,0%,0,0%
+,Tyler Huntley   QB - BAL,4,80%,1,20%,0,0%,1,20%
+,Quinn Ewers   QB - MIA,4,100%,0,0%,0,0%,0,0%
+,Kenny Pickett   QB - CAR,6,100%,0,0%,0,0%,0,0%
+,Teddy Bridgewater   QB,4,100%,0,0%,0,0%,0,0%
+,Tanner McKee   QB - PHI,4,100%,0,0%,0,0%,0,0%
+,Jarrett Stidham   QB - DEN,1,100%,0,0%,0,0%,0,0%
+,Adrian Martinez   QB - SF,1,100%,0,0%,0,0%,0,0%
+,Stetson Bennett IV   QB - LAR,1,100%,0,0%,0,0%,0,0%
+,Kedon Slovis   QB - ARI,2,100%,0,0%,0,0%,0,0%
+,Josh Johnson   QB - CIN,4,80%,1,20%,0,0%,1,20%
+,Nick Mullens   QB - JAC,5,100%,0,0%,0,0%,0,0%
+,Malik Cunningham   QB - DET,1,100%,0,0%,0,0%,0,0%
+,Brady Cook   QB - NYJ,5,100%,0,0%,0,0%,0,0%
+,Philip Rivers   QB,2,67%,1,33%,0,0%,1,33%
+,Chris Oladokun   QB - KC,3,100%,0,0%,0,0%,0,0%
+,Will Grier   QB,1,100%,0,0%,0,0%,0,0%
+,Clayton Tune   QB,2,100%,0,0%,0,0%,0,0%
+,Brandon Allen   QB - NYG,1,100%,0,0%,0,0%,0,0%
+,Aidan O'Connell   QB - LV,1,100%,0,0%,0,0%,0,0%
+,Shane Buechele   QB - BUF,1,100%,0,0%,0,0%,0,0%
+,AJ Dillon   RB - CAR,7,100%,0,0%,0,0%,0,0%
+,Miles Sanders   RB,4,100%,0,0%,0,0%,0,0%
+,Hassan Haskins   RB - NE,13,100%,0,0%,0,0%,0,0%
+,Ulysses Bentley IV   RB - IND,1,100%,0,0%,0,0%,0,0%
+,Jeff Wilson Jr.   RB,2,100%,0,0%,0,0%,0,0%
+,Zamir White   RB - NO,5,100%,0,0%,0,0%,0,0%
+,Tyler Badie   RB - DEN,16,100%,0,0%,0,0%,0,0%
+,Julius Chestnut   RB - TEN,17,100%,0,0%,0,0%,0,0%
+,Craig Reynolds   RB - WAS,6,100%,0,0%,0,0%,0,0%
+,Nick Chubb   RB,13,87%,2,13%,0,0%,2,13%
+,Dare Ogunbowale   RB - LV,17,100%,0,0%,0,0%,0,0%
+,Jakob Johnson   RB,7,100%,0,0%,0,0%,0,0%
+,Ty Chandler   RB - NO,3,100%,0,0%,0,0%,0,0%
+,Jordan Mims   RB - PHI,1,100%,0,0%,0,0%,0,0%
+,Nathan Carter   RB - ATL,4,100%,0,0%,0,0%,0,0%
+,Cam Akers   RB,4,100%,0,0%,0,0%,0,0%
+,Xazavian Valladay   RB,1,100%,0,0%,0,0%,0,0%
+,Jacardia Wright   RB - SEA,1,100%,0,0%,0,0%,0,0%
+,Sincere McCormick   RB - SF,1,100%,0,0%,0,0%,0,0%
+,Trey Sermon   RB - ATL,3,100%,0,0%,0,0%,0,0%
+,Raheem Mostert   RB - LV,12,100%,0,0%,0,0%,0,0%
+,C.J. Ham   RB,11,100%,0,0%,0,0%,0,0%
+,DeeJay Dallas   RB - JAC,5,100%,0,0%,0,0%,0,0%
+,Ameer Abdullah   RB - JAC,13,100%,0,0%,0,0%,0,0%
+,Avery Williams   RB,1,100%,0,0%,0,0%,0,0%
+,Nyheim Miller-Hines   RB,4,100%,0,0%,0,0%,0,0%
+,Owen Wright   RB - HOU,3,100%,0,0%,0,0%,0,0%
+,Travis Homer   RB - PIT,8,100%,0,0%,0,0%,0,0%
+,Eric Gray   RB - NYG,3,100%,0,0%,0,0%,0,0%
+,D'Ernest Johnson   RB - TEN,6,100%,0,0%,0,0%,0,0%
+,Kye Robichaux   RB,1,100%,0,0%,0,0%,0,0%
+,Jaret Patterson   RB - LAC,5,83%,1,17%,0,0%,1,17%
+,Raheem Blackshear   RB,1,100%,0,0%,0,0%,0,0%
+,Brittain Brown   RB - CHI,2,100%,0,0%,0,0%,0,0%
+,Clyde Edwards-Helaire   RB,2,100%,0,0%,0,0%,0,0%
+,Trayveon Williams   RB - DET,7,100%,0,0%,0,0%,0,0%
+,Chase Edmonds   RB - WAS,3,100%,0,0%,0,0%,0,0%
+,Amar Johnson   RB - LAC,1,100%,0,0%,0,0%,0,0%
+,Kendall Milton   RB - CIN,1,100%,0,0%,0,0%,0,0%
+,Elijah Mitchell   RB,1,100%,0,0%,0,0%,0,0%
+,Deion Hankins   RB,1,100%,0,0%,0,0%,0,0%
+,Gary Brightwell   RB - CIN,2,100%,0,0%,0,0%,0,0%
+,Kalel Mullings   RB - TEN,5,100%,0,0%,0,0%,0,0%
+,Chris Collier   RB - LV,1,100%,0,0%,0,0%,0,0%
+,Evan Hull   RB - ARI,6,100%,0,0%,0,0%,0,0%
+,Keilan Robinson   RB,1,100%,0,0%,0,0%,0,0%
+,Myles Gaskin   RB,1,100%,0,0%,0,0%,0,0%
+,Jashaun Corbin   RB - DAL,1,100%,0,0%,0,0%,0,0%
+,Alexander Mattison   RB,2,100%,0,0%,0,0%,0,0%
+,Corey Kiner   RB - ARI,4,100%,0,0%,0,0%,0,0%
+,Keaontay Ingram   RB,2,100%,0,0%,0,0%,0,0%
+,Darius Cooper   WR - PHI,13,100%,0,0%,0,0%,0,0%
+,Derius Davis   WR - LAC,11,100%,0,0%,0,0%,0,0%
+,JuJu Smith-Schuster   WR,16,94%,1,6%,0,0%,1,6%
+,Jason Brownlee   WR - KC,6,100%,0,0%,0,0%,0,0%
+,Nikko Remigio   WR - KC,14,100%,0,0%,0,0%,0,0%
+,Ray-Ray McCloud III   WR - CHI,6,100%,0,0%,0,0%,0,0%
+,Casey Washington   WR - CAR,7,100%,0,0%,0,0%,0,0%
+,Jamal Agnew   WR,11,100%,0,0%,0,0%,0,0%
+,David Sills V   WR - TB,17,100%,0,0%,0,0%,0,0%
+,KhaDarel Hodge   WR - SF,12,100%,0,0%,0,0%,0,0%
+,Sterling Shepard   WR - HOU,12,92%,1,8%,0,0%,1,8%
+,Kameron Johnson   WR - TB,16,94%,1,6%,0,0%,1,6%
+,Ryan Miller   WR - MIA,12,92%,1,8%,0,0%,1,8%
+,Jamari Thrash   WR - CLE,9,100%,0,0%,0,0%,0,0%
+,DeAndre Carter   WR,5,100%,0,0%,0,0%,0,0%
+,Charlie Jones   WR - CIN,14,100%,0,0%,0,0%,0,0%
+,Anthony Gould   WR - IND,11,100%,0,0%,0,0%,0,0%
+,Dee Eskridge   WR,13,100%,0,0%,0,0%,0,0%
+,Hunter Renfrow   WR,5,83%,0,0%,1,17%,1,17%
+,Brycen Tremayne   WR - CAR,16,100%,0,0%,0,0%,0,0%
+,David Moore   WR - CAR,4,100%,0,0%,0,0%,0,0%
+,Jeremiah Webb   WR - NE,2,100%,0,0%,0,0%,0,0%
+,Justin Shorter   WR - LV,5,100%,0,0%,0,0%,0,0%
+,Alex Bachman   WR - LAR,13,100%,0,0%,0,0%,0,0%
+,Brandin Cooks   WR,14,93%,1,7%,0,0%,1,7%
+,Zay Jones   WR - HOU,8,100%,0,0%,0,0%,0,0%
+,Tyler Johnson   WR - DAL,11,92%,1,8%,0,0%,1,8%
+,Josh Reynolds   WR,5,100%,0,0%,0,0%,0,0%
+,Arian Smith   WR - NYJ,16,100%,0,0%,0,0%,0,0%
+,Xavier Gipson   WR - NYG,6,100%,0,0%,0,0%,0,0%
+,Calvin Austin III   WR - NYG,11,79%,3,21%,0,0%,3,21%
+,Ben Skowronek   WR - PIT,15,94%,1,6%,0,0%,1,6%
+,Roman Wilson   WR,12,86%,2,14%,0,0%,2,14%
+,Scotty Miller   WR - CHI,13,100%,0,0%,0,0%,0,0%
+,Chris Moore   WR - BAL,13,93%,1,7%,0,0%,1,7%
+,Noah Brown   WR,4,100%,0,0%,0,0%,0,0%
+,Gunner Olszewski   WR - NYG,14,88%,2,13%,0,0%,2,13%
+,Beaux Collins   WR - ATL,9,100%,0,0%,0,0%,0,0%
+,Trent Sherfield Sr.   WR - BUF,12,100%,0,0%,0,0%,0,0%
+,Bryce Oliver   WR - TEN,3,100%,0,0%,0,0%,0,0%
+,Cody White   WR - SEA,8,89%,1,11%,0,0%,1,11%
+,Ricky Pearsall   WR - SF,6,60%,4,40%,0,0%,4,40%
+,Skyy Moore   WR - GB,17,100%,0,0%,0,0%,0,0%
+,Russell Gage Jr.   WR,1,100%,0,0%,0,0%,0,0%
+,Bo Melton   WR - GB,15,94%,1,6%,0,0%,1,6%
+,Malik Heath   WR,11,100%,0,0%,0,0%,0,0%
+,Jayden Higgins   WR - HOU,11,65%,5,29%,1,6%,6,35%
+,Justin Watson   WR - HOU,3,100%,0,0%,0,0%,0,0%
+,Tyrell Shavers   WR - BUF,16,94%,0,0%,1,6%,1,6%
+,LaJohntay Wester   WR - BAL,16,100%,0,0%,0,0%,0,0%
+,Tylan Wallace   WR - CLE,13,93%,1,7%,0,0%,1,7%
+,Devin Duvernay   WR - ARI,17,100%,0,0%,0,0%,0,0%
+,Adam Thielen   WR,16,100%,0,0%,0,0%,0,0%
+,Myles Price   WR - MIN,16,100%,0,0%,0,0%,0,0%
+,Tim Jones   WR - JAC,4,100%,0,0%,0,0%,0,0%
+,Dominic Lovett   WR - DET,8,100%,0,0%,0,0%,0,0%
+,Allen Lazard   WR,10,100%,0,0%,0,0%,0,0%
+,Jake Bobo   WR - SEA,11,100%,0,0%,0,0%,0,0%
+,Dareke Young   WR - LV,9,100%,0,0%,0,0%,0,0%
+,Dalevon Campbell   WR - LAC,2,100%,0,0%,0,0%,0,0%
+,Kaden Davis   WR - CHI,2,100%,0,0%,0,0%,0,0%
+,Kevin Austin Jr.   WR - NO,7,88%,1,13%,0,0%,1,13%
+,Mason Tipton   WR - NO,13,100%,0,0%,0,0%,0,0%
+,Jalen Moreno-Cropper   WR - NO,4,100%,0,0%,0,0%,0,0%
+,Malik Turner   WR - SF,3,100%,0,0%,0,0%,0,0%
+,Simi Fehoko   WR - ARI,7,100%,0,0%,0,0%,0,0%
+,Jalin Hyatt   WR - NYG,8,100%,0,0%,0,0%,0,0%
+,Xavier Weaver   WR - ARI,9,100%,0,0%,0,0%,0,0%
+,Tay Martin   WR - DET,3,100%,0,0%,0,0%,0,0%
+,Curtis Samuel   WR,5,83%,1,17%,0,0%,1,17%
+,Jackson Meeks   WR - DET,2,100%,0,0%,0,0%,0,0%
+,Malachi Corley   WR - CLE,13,100%,0,0%,0,0%,0,0%
+,Gage Larvadain   WR - CLE,13,100%,0,0%,0,0%,0,0%
+,Tahj Washington   WR - PHI,6,100%,0,0%,0,0%,0,0%
+,Jalen Brooks   WR - ARI,6,100%,0,0%,0,0%,0,0%
+,Lil'Jordan Humphrey   WR - DEN,9,90%,1,10%,0,0%,1,10%
+,Parris Campbell   WR,1,100%,0,0%,0,0%,0,0%
+,Efton Chism III   WR - NE,7,88%,1,13%,0,0%,1,13%
+,Ke'Shawn Williams   WR - CIN,11,100%,0,0%,0,0%,0,0%
+,Deven Thompkins   WR - LV,7,100%,0,0%,0,0%,0,0%
+,Ja'Corey Brooks   WR,1,100%,0,0%,0,0%,0,0%
+,Cade McDonald   WR,1,100%,0,0%,0,0%,0,0%
+,Quinton Bell   WR - SF,5,100%,0,0%,0,0%,0,0%
+,Shedrick Jackson   WR - LV,4,80%,1,20%,0,0%,1,20%
+,Mason Kinsey   WR - TEN,10,100%,0,0%,0,0%,0,0%
+,Laquon Treadwell   WR - IND,9,100%,0,0%,0,0%,0,0%
+,Robbie Chosen   WR,3,100%,0,0%,0,0%,0,0%
+,Braxton Berrios   WR - NYG,4,100%,0,0%,0,0%,0,0%
+,Dylan Drummond   WR - ATL,9,100%,0,0%,0,0%,0,0%
+,Cedrick Wilson Jr.   WR,10,100%,0,0%,0,0%,0,0%
+,Brandon Smith   WR - PIT,1,100%,0,0%,0,0%,0,0%
+,Jared Wayne   WR - HOU,1,100%,0,0%,0,0%,0,0%
+,James Proche II   WR,9,100%,0,0%,0,0%,0,0%
+,Michael Bandy   WR - DEN,3,75%,1,25%,0,0%,1,25%
+,Austin Trammell   WR - JAC,6,100%,0,0%,0,0%,0,0%
+,Ricky White III   WR - SEA,2,100%,0,0%,0,0%,0,0%
+,Dan Chisena   WR - CAR,1,100%,0,0%,0,0%,0,0%
+,Dante Pettis   WR - BUF,8,100%,0,0%,0,0%,0,0%
+,Gabe Davis   WR,5,83%,1,17%,0,0%,1,17%
+,Mecole Hardman Jr.   WR,2,100%,0,0%,0,0%,0,0%
+,Isaiah Hodgins   WR - NYG,6,86%,1,14%,0,0%,1,14%
+,Dalen Cambre   WR - NYG,6,100%,0,0%,0,0%,0,0%
+,Andre Baccellia   WR,5,100%,0,0%,0,0%,0,0%
+,Jonathan Mingo   WR - DAL,6,100%,0,0%,0,0%,0,0%
+,Tom Kennedy   WR - DET,6,100%,0,0%,0,0%,0,0%
+,Britain Covey   WR - PHI,6,100%,0,0%,0,0%,0,0%
+,DJ Turner   WR,1,100%,0,0%,0,0%,0,0%
+,Jordan Moore   WR - CIN,1,100%,0,0%,0,0%,0,0%
+,Chandler Brayboy   WR - JAC,1,100%,0,0%,0,0%,0,0%
+,Coleman Owen   WR - IND,2,100%,0,0%,0,0%,0,0%
+,Kristian Wilkerson   WR,1,100%,0,0%,0,0%,0,0%
+,Lawrence Cager   WR - WAS,1,100%,0,0%,0,0%,0,0%
+,Maurice Alexander   WR - CHI,1,100%,0,0%,0,0%,0,0%
+,Theo Wease Jr.   WR - MIA,2,67%,1,33%,0,0%,1,33%
+,Steven Sims Jr.   WR,3,100%,0,0%,0,0%,0,0%
+,Bryson Green   WR,1,100%,0,0%,0,0%,0,0%
+,River Cracraft   WR,2,100%,0,0%,0,0%,0,0%
+,Ronnie Bell   WR - NO,1,50%,1,50%,0,0%,1,50%
+,Samori Toure   WR - PHI,1,100%,0,0%,0,0%,0,0%
+,Jeshaun Jones   WR - MIN,1,100%,0,0%,0,0%,0,0%
+,Jakobie Keeney-James   WR,1,100%,0,0%,0,0%,0,0%
+,Quentin Skinner   WR - BUF,1,100%,0,0%,0,0%,0,0%
+,Tejhaun Palmer   WR - NE,1,100%,0,0%,0,0%,0,0%
+,Jimmy Holiday   WR - KC,1,100%,0,0%,0,0%,0,0%
+,Kylen Granson   TE - TEN,17,100%,0,0%,0,0%,0,0%
+,Grant Calcaterra   TE - PHI,14,93%,1,7%,0,0%,1,7%
+,Brevyn Spann-Ford   TE - DAL,17,100%,0,0%,0,0%,0,0%
+,Luke Schoonmaker   TE - DAL,17,100%,0,0%,0,0%,0,0%
+,Tyler Conklin   TE - DET,10,100%,0,0%,0,0%,0,0%
+,Will Dissly   TE,9,100%,0,0%,0,0%,0,0%
+,Robert Tonyan   TE - PIT,16,100%,0,0%,0,0%,0,0%
+,Charlie Woerner   TE - ATL,17,100%,0,0%,0,0%,0,0%
+,Teagan Quitoriano   TE - ARI,15,100%,0,0%,0,0%,0,0%
+,Payne Durham   TE - TB,17,100%,0,0%,0,0%,0,0%
+,Ko Kieft   TE - TB,3,100%,0,0%,0,0%,0,0%
+,Blake Whiteheart   TE - CLE,16,100%,0,0%,0,0%,0,0%
+,Mo Alie-Cox   TE - IND,16,94%,1,6%,0,0%,1,6%
+,Drew Ogletree   TE - IND,14,93%,1,7%,0,0%,1,7%
+,Tanner Conner   TE - NYG,9,100%,0,0%,0,0%,0,0%
+,Julian Hill   TE - NE,14,100%,0,0%,0,0%,0,0%
+,Hunter Long   TE - JAC,7,78%,2,22%,0,0%,2,22%
+,Johnny Mundt   TE - PHI,16,100%,0,0%,0,0%,0,0%
+,Jack Westover   TE - NE,17,100%,0,0%,0,0%,0,0%
+,Ian Thomas   TE - LV,15,100%,0,0%,0,0%,0,0%
+,Moliki Matavao   TE - NO,6,100%,0,0%,0,0%,0,0%
+,Jack Stoll   TE,14,93%,1,7%,0,0%,1,7%
+,Tip Reiman   TE - ARI,5,100%,0,0%,0,0%,0,0%
+,Travis Vokolek   TE,3,100%,0,0%,0,0%,0,0%
+,Jeremy Ruckert   TE - NYJ,16,94%,1,6%,0,0%,1,6%
+,Andrew Beck   TE - NYJ,17,100%,0,0%,0,0%,0,0%
+,Connor Heyward   TE - LV,14,88%,2,13%,0,0%,2,13%
+,Colson Yankoff   TE - WAS,14,100%,0,0%,0,0%,0,0%
+,Chris Manhertz   TE - NYG,17,100%,0,0%,0,0%,0,0%
+,Lucas Krull   TE - DEN,4,100%,0,0%,0,0%,0,0%
+,Patrick Murtagh   TE,1,100%,0,0%,0,0%,0,0%
+,David Martin-Robinson   TE - TEN,15,100%,0,0%,0,0%,0,0%
+,Brady Russell   TE - SEA,16,100%,0,0%,0,0%,0,0%
+,Eric Saubert   TE - SEA,11,100%,0,0%,0,0%,0,0%
+,Robbie Ouzts   TE - SEA,12,100%,0,0%,0,0%,0,0%
+,Luke Farrell   TE - SF,15,88%,2,12%,0,0%,2,12%
+,John FitzPatrick   TE,14,93%,1,7%,0,0%,1,7%
+,Shane Zylstra   TE - BUF,5,100%,0,0%,0,0%,0,0%
+,Davis Allen   TE - LAR,14,82%,3,18%,0,0%,3,18%
+,Zaire Mitchell-Paden   TE - NO,8,100%,0,0%,0,0%,0,0%
+,Ben Yurosek   TE - MIN,12,100%,0,0%,0,0%,0,0%
+,Quintin Morris   TE - JAC,12,92%,1,8%,0,0%,1,8%
+,Brayden Willis   TE - SF,6,100%,0,0%,0,0%,0,0%
+,Jelani Woods   TE - NYJ,6,100%,0,0%,0,0%,0,0%
+,Josiah Deguara   TE - NYG,11,92%,1,8%,0,0%,1,8%
+,James Winchester   TE - KC,3,100%,0,0%,0,0%,0,0%
+,Cameron Latu   TE - PHI,15,100%,0,0%,0,0%,0,0%
+,Harrison Bryant   TE,12,100%,0,0%,0,0%,0,0%
+,Cam Grandy   TE - CIN,5,100%,0,0%,0,0%,0,0%
+,Tucker Fisk   TE,10,100%,0,0%,0,0%,0,0%
+,Nate Adkins   TE - DEN,8,89%,1,11%,0,0%,1,11%
+,Treyton Welch   TE - NO,3,100%,0,0%,0,0%,0,0%
+,Ross Dwelley   TE,10,100%,0,0%,0,0%,0,0%
+,Nick Vannett   TE - SEA,5,100%,0,0%,0,0%,0,0%
+,Kenny Yeboah   TE,1,100%,0,0%,0,0%,0,0%
+,Brenden Bates   TE,9,100%,0,0%,0,0%,0,0%
+,James Mitchell   TE - CAR,5,100%,0,0%,0,0%,0,0%
+,Devin Culp   TE - TB,10,91%,1,9%,0,0%,1,9%
+,Stephen Carlson   TE - CHI,2,100%,0,0%,0,0%,0,0%
+,Stone Smartt   TE - PHI,9,100%,0,0%,0,0%,0,0%
+,Will Mallory   TE - IND,2,100%,0,0%,0,0%,0,0%
+,Albert Okwuegbunam Jr.   TE - LV,1,100%,0,0%,0,0%,0,0%
+,Carter Runyon   TE - LV,11,100%,0,0%,0,0%,0,0%
+,Foster Moreau   TE - HOU,11,100%,0,0%,0,0%,0,0%
+,Ben Sims   TE - MIA,9,100%,0,0%,0,0%,0,0%
+,E.J. Jenkins   TE - PHI,2,100%,0,0%,0,0%,0,0%
+,Thomas Fidone II   TE - NYG,2,100%,0,0%,0,0%,0,0%
+,Hayden Rucci   TE - SF,4,100%,0,0%,0,0%,0,0%
+,Marcedes Lewis   TE,5,100%,0,0%,0,0%,0,0%
+,Nick Kallerup   TE - SEA,9,100%,0,0%,0,0%,0,0%
+,Princeton Fant   TE - DAL,1,100%,0,0%,0,0%,0,0%
+,Josh Whyle   TE - GB,8,100%,0,0%,0,0%,0,0%
+,Keleki Latu   TE - BUF,5,100%,0,0%,0,0%,0,0%
+,Pharaoh Brown   TE - IND,7,100%,0,0%,0,0%,0,0%
+,Nikola Kalinic   TE - CHI,2,100%,0,0%,0,0%,0,0%
+,Anthony Firkser   TE,7,100%,0,0%,0,0%,0,0%
+,Zach Horton   TE - DET,2,100%,0,0%,0,0%,0,0%
+,Jared Wiley   TE - KC,4,100%,0,0%,0,0%,0,0%
+,Giovanni Ricci   TE,3,100%,0,0%,0,0%,0,0%
+,Drake Dabney   TE - GB,2,100%,0,0%,0,0%,0,0%
+,Sal Cannella   TE,2,100%,0,0%,0,0%,0,0%
+,CJ Dippre   TE,2,100%,0,0%,0,0%,0,0%
+,Zach Davidson   TE,1,100%,0,0%,0,0%,0,0%
+,Sean McKeon   TE - IND,1,100%,0,0%,0,0%,0,0%

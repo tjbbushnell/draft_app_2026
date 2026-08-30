@@ -1,0 +1,329 @@
+GlobalRank,Name,Team,Pos,ECR_Pos,ContractYear,Flag,Notes,PosTier,Bye,SoS_Rank,SoS_Tier,SoS_Label,SF_TEP_Tag,GlobalValue,DurabilityNote,Tier,TierLevel,ADP,ValueDelta
+1,Jahmyr Gibbs,DET,RB,1,N,STUD,"Top-of-market receiving-back profile; SF Overall #7. UPDATED 8/30: hamstring issue after signing his Aug extension pulled him from practice -- Campbell says 'on schedule' for the opener, confirm his practice status the morning of your draft",1,6.0,1,1,Very Soft,SF Overall #7,287.3,"minor Aug hamstring issue, team says on schedule",1,Tier 1,3.5,2.5
+2,Josh Allen,BUF,QB,1,N,STUD,Unanimous 2026 QB1; top-2 fantasy finish 5 straight years,1,7.0,30,5,Gauntlet,Superflex Elite | SF Overall #1,260.9,,1,Tier 1,4.8,2.8
+3,Ja'Marr Chase,CIN,WR,1,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,1,6.0,6,1,Very Soft,SF Overall #9,242.3,,1,Tier 1,6.1,3.1
+4,Brock Bowers,LV,TE,1,N,STUD,1.0 TE premium turns him into a WR1-scoring asset,1,13.0,31,5,Gauntlet,TEP Cheat Code,221.0,,1,Tier 1,27.1,23.1
+5,Lamar Jackson,BAL,QB,2,N,STUD,Elite dual-threat despite a down 2025; SF Overall #2,1,13.0,4,1,Very Soft,Superflex Elite | SF Overall #2,189.7,,2,Tier 2,8.9,3.9
+6,Bijan Robinson,ATL,RB,2,N,STUD,Bell-cow touches plus real receiving work; SF Overall #8,1,11.0,15,3,Neutral,SF Overall #8,175.4,,2,Tier 2,3.3,-2.7
+7,Puka Nacua,LAR,WR,2,Y,GAMBLE,Contract year; active psoas injury since mid-Aug; SF Overall #11 despite the risk,1,11.0,23,4,Tough,SF Overall #11,152.3,active psoas injury since mid-Aug,2,Tier 2,7.3,0.3
+8,Drake Maye,NE,QB,3,N,,Superflex 1st-round arm; SF Overall #3,2,11.0,18,3,Neutral,Superflex Elite | SF Overall #3,138.1,,2,Tier 2,14.4,6.4
+9,Trey McBride,ARI,TE,2,N,BUST,2025 volume inflated by Arizona playing from behind all year; priced for a repeat,1,14.0,22,4,Tough,TEP Cheat Code,128.0,,2,Tier 2,31.6,22.6
+10,Jaxon Smith-Njigba,SEA,WR,3,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,2,11.0,17,3,Neutral,SF Overall #13,123.9,,2,Tier 2,8.2,-1.8
+11,Christian McCaffrey,SF,RB,3,N,BUST,Age 30; heavy-touch seasons have twice preceded serious injury years,2,8.0,19,3,Neutral,SF Overall #17,115.6,repeated heavy-touch injury pattern at age 30,2,Tier 2,8.6,-2.4
+12,Joe Burrow,CIN,QB,4,N,,Superflex 1st-round arm talent; SF Overall #4,2,6.0,6,1,Very Soft,Superflex Elite | SF Overall #4,115.1,,2,Tier 2,18.8,6.8
+13,Jonathan Taylor,IND,RB,4,N,STUD,Led the NFL in snap share (89%) in 2025; SF Overall #18,2,13.0,26,4,Tough,SF Overall #18,100.0,,2,Tier 2,11.2,-1.8
+14,Amon-Ra St. Brown,DET,WR,4,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,2,6.0,32,5,Gauntlet,SF Overall #14,97.3,,2,Tier 2,10.8,-3.2
+15,Jayden Daniels,WAS,QB,5,N,GAMBLE,Missed 10 games in 2025; new under-center scheme; boom/bust,3,7.0,7,2,Soft,Superflex Starter | SF Overall #5,94.7,,2,Tier 2,23.2,8.2
+16,CeeDee Lamb,DAL,WR,5,N,STUD,Safest true WR1 anchor; elite target volume,2,14.0,8,2,Soft,SF Overall #20,89.6,,2,Tier 2,15.3,-0.7
+17,Colston Loveland,CHI,TE,3,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,2,10.0,28,5,Gauntlet,TEP Cheat Code,85.6,,2,Tier 2,44.8,27.8
+18,James Cook,BUF,RB,5,N,FLOOR,Steady early-down/receiving mix; SF Overall #19,2,7.0,31,5,Gauntlet,SF Overall #19,81.4,,2,Tier 2,13.3,-4.7
+19,Jalen Hurts,PHI,QB,6,N,BUST,Rushing attempts down 3 straight yrs; tush-push success rate 90%->60%,3,10.0,3,1,Very Soft,Superflex Starter | SF Overall #6,80.5,,2,Tier 2,25.1,6.1
+20,Justin Jefferson,MIN,WR,6,N,STUD,2025 dip was QB-driven (McCarthy); Murray at QB is a real bounce-back thesis,2,6.0,9,2,Soft,,77.6,,2,Tier 2,16.6,-3.4
+21,Chase Brown,CIN,RB,6,Y,FLOOR,Contract year; cited as the predictable alternative to a risky McCaffrey pick,2,6.0,32,5,Gauntlet,,72.2,,2,Tier 2,22.1,1.1
+22,Tyler Warren,IND,TE,4,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,2,13.0,12,2,Soft,TEP Cheat Code,66.5,,3,Tier 3,58.7,36.7
+23,A.J. Brown,NE,WR,7,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,2,11.0,18,3,Neutral,,66.4,,3,Tier 3,26.0,3.0
+24,Saquon Barkley,PHI,RB,7,N,SLEEPER,2025 dip looks like a blocking/scheme issue; new OC brings a livelier scheme,2,10.0,6,1,Very Soft,,64.4,,3,Tier 3,17.3,-6.7
+25,Caleb Williams,CHI,QB,7,N,,Superflex upside arm; SF Overall #10,4,10.0,28,5,Gauntlet,Superflex Starter | SF Overall #10,62.9,,3,Tier 3,28.0,3.0
+26,Drake London,ATL,WR,8,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,2,11.0,19,3,Neutral,,58.8,,3,Tier 3,26.4,0.4
+27,Nico Collins,HOU,WR,9,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,3,8.0,5,1,Very Soft,,55.1,,3,Tier 3,28.8,1.8
+28,Justin Herbert,LAC,QB,8,N,,New OC Mike McDaniel arrives in LAC,4,7.0,26,4,Tough,Superflex Starter | SF Overall #12,53.9,,3,Tier 3,35.9,7.9
+29,De'Von Achane,MIA,RB,8,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,3,6.0,22,4,Tough,,53.4,,3,Tier 3,20.0,-9.0
+30,Tucker Kraft,GB,TE,5,Y,DEPTH,Contract year; ascending real TE1 target,3,11.0,20,4,Tough,TEP Boost,52.1,,3,Tier 3,77.5,47.5
+31,George Pickens,DAL,WR,10,Y,DEPTH,Contract year; real starter-caliber weapon in Dallas,3,14.0,8,2,Soft,,51.5,,3,Tier 3,31.1,0.1
+32,Kenneth Walker III,KC,RB,9,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,3,5.0,27,5,Gauntlet,,46.1,,3,Tier 3,23.3,-8.7
+33,Trevor Lawrence,JAC,QB,9,N,,"UPDATED 8/30: fully healthy entering 2026 (Dec 2025 shoulder/AC-joint surgery is resolved), confirmed Week 1 starter per camp reports -- Superflex-relevant arm, needs weapons to step up",5,7.0,27,5,Gauntlet,Superflex Depth | SF Overall #16,45.9,,3,Tier 3,42.1,9.1
+34,Omarion Hampton,LAC,RB,10,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,3,7.0,14,3,Neutral,,42.5,,3,Tier 3,25.1,-8.9
+35,Dak Prescott,DAL,QB,10,N,,Steady superflex QB1/2 floor,5,14.0,8,2,Soft,Superflex Depth | SF Overall #15,41.5,,3,Tier 3,38.9,3.9
+36,Harold Fannin,CLE,TE,6,N,BUST,Benefited from Njoku's injury; new additions should restore balanced play-calling,3,11.0,2,1,Very Soft,TEP Boost,41.0,,3,Tier 3,81.4,45.4
+37,Chris Olave,NO,WR,11,N,GAMBLE,"NEW 8/30: well-documented multi-concussion history (his new contract even has a guarantee waiver for a career-ending concussion) -- had an Aug practice scare, reportedly fine, but recurrence risk is real",3,8.0,11,2,Soft,,40.4,well-documented multi-concussion history,3,Tier 3,37.5,0.5
+38,Malik Nabers,NYG,WR,12,N,GAMBLE,"Recovering well from a 2025 ACL tear, trending to a Wk1 return; price hasn't fully caught up",3,8.0,1,1,Very Soft,,38.2,recovering from a 2025 ACL tear,3,Tier 3,35.5,-2.5
+39,DeVonta Smith,PHI,WR,13,N,FLOOR,Steady target share in an efficient offense,3,10.0,3,1,Very Soft,,37.0,,3,Tier 3,41.4,2.4
+40,Derrick Henry,BAL,RB,11,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,3,13.0,20,4,Tough,,37.0,,3,Tier 3,25.8,-14.2
+41,Brock Purdy,SF,QB,11,N,,"Efficient offense, Mike Evans now a weapon",6,8.0,16,3,Neutral,Superflex Depth,34.3,,4,Tier 4,57.1,16.1
+42,Ashton Jeanty,LV,RB,12,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,3,13.0,21,4,Tough,,32.8,,4,Tier 4,25.7,-16.3
+43,Rashee Rice,KC,WR,14,N,GAMBLE,Top-15 talent; real suspension/probation uncertainty,3,5.0,15,3,Neutral,,32.4,,4,Tier 4,40.8,-2.2
+44,Sam LaPorta,DET,TE,7,Y,DEPTH,Contract year; real difference-making receiving TE1,4,6.0,32,5,Gauntlet,TEP Boost,30.8,,4,Tier 4,75.9,31.9
+45,Zay Flowers,BAL,WR,15,N,FLOOR,"Efficient, high-floor value target",4,13.0,4,1,Very Soft,,30.5,,4,Tier 4,46.3,1.3
+46,Jaxson Dart,NYG,QB,12,N,BUST,15 total TD in 12 rookie starts; new OC installing a different scheme,6,8.0,1,1,Very Soft,Superflex Depth,30.3,,4,Tier 4,50.1,4.1
+47,Kyren Williams,LAR,RB,13,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,4,11.0,17,3,Neutral,,29.6,,4,Tier 4,38.8,-8.2
+48,Javonte Williams,DAL,RB,14,N,BUST,Post-bye decline 5.2->4.3 YPC; bottom 12% in receiving yards per route run,4,14.0,11,2,Soft,,26.9,,4,Tier 4,46.5,-1.5
+49,Tee Higgins,CIN,WR,16,N,BUST,"Never topped 1,100 yards; missed 12 games over 3 yrs incl. 2 concussions in 2025",4,6.0,6,1,Very Soft,,24.8,missed 12 games over 3 yrs incl. 2 concussions in 2025,4,Tier 4,48.0,-1.0
+50,Bo Nix,DEN,QB,13,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,10,2,Soft,Superflex Depth,24.5,,4,Tier 4,51.4,1.4
+51,Kyle Pitts,ATL,TE,8,N,BUST,Averaged just 9.6 PPG in games Drake London also played,4,11.0,19,3,Neutral,TEP Boost,24.1,,4,Tier 4,85.1,34.1
+52,Ladd McConkey,LAC,WR,17,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,4,7.0,26,4,Tough,,23.4,,4,Tier 4,50.1,-1.9
+53,Breece Hall,NYJ,RB,15,N,GAMBLE,"NEW 8/30: groin strain in Aug camp (out 8/17); team expects a Week 1 return but this is worth confirming the morning of your draft, not assuming",4,13.0,13,2,Soft,,22.9,"Aug groin strain, expected back for Week 1",4,Tier 4,44.4,-8.6
+54,Tetairoa McMillan,CAR,WR,18,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,4,5.0,21,4,Tough,,21.6,,4,Tier 4,48.9,-5.1
+55,Jeremiyah Love,ARI,RB,16,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,4,14.0,25,4,Tough,,20.4,,4,Tier 4,38.0,-17.0
+56,Jaylen Waddle,DEN,WR,19,N,,"NEW 8/30: traded from Miami to Denver this offseason -- treated as a value WR1-upside play in Bo Nix's offense, not a Dolphin any longer",4,10.0,10,2,Soft,,20.2,,4,Tier 4,50.5,-5.5
+57,Patrick Mahomes,KC,QB,14,N,GAMBLE,ACL-scare discount; buy-low if medicals check out,6,5.0,15,3,Neutral,Superflex Depth,19.1,ACL scare,4,Tier 4,54.7,-2.3
+58,Josh Jacobs,GB,RB,17,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,4,11.0,8,2,Soft,,19.1,,4,Tier 4,49.7,-8.3
+59,Garrett Wilson,NYJ,WR,20,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,4,13.0,13,2,Soft,,18.1,,4,Tier 4,54.2,-4.8
+60,George Kittle,SF,TE,9,N,GAMBLE,Torn Achilles in the 2025 finale but a fast-recovery location; priced below his TE3 talent level,5,8.0,16,3,Neutral,,17.1,torn Achilles in the 2025 season finale,4,Tier 4,100.7,40.7
+61,Travis Etienne,NO,RB,18,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,5,8.0,18,3,Neutral,,16.4,,4,Tier 4,54.2,-6.8
+62,Emeka Egbuka,TB,WR,21,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,5,10.0,29,5,Gauntlet,,15.4,,4,Tier 4,55.6,-6.4
+63,Matthew Stafford,LAR,QB,15,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,23,4,Tough,Superflex Depth,15.3,,4,Tier 4,58.7,-4.3
+64,D'Andre Swift,CHI,RB,19,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,5,10.0,2,1,Very Soft,,15.2,,4,Tier 4,58.5,-5.5
+65,Terry McLaurin,WAS,WR,22,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,5,7.0,7,2,Soft,,14.8,,4,Tier 4,64.5,-0.5
+66,Travis Kelce,KC,TE,10,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,5,5.0,15,3,Neutral,,14.6,,4,Tier 4,100.9,34.9
+67,Cam Skattebo,NYG,RB,20,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,5,8.0,12,2,Soft,,12.9,,5,Tier 5,57.7,-9.3
+68,Davante Adams,LAR,WR,23,Y,BUST,"Contract year; turns 34 in Dec, snaps already shrinking pre-injury",5,11.0,23,4,Tough,,12.1,"age 34, snaps already shrinking pre-injury",5,Tier 5,67.8,-0.2
+69,Jared Goff,DET,QB,16,N,FLOOR,"4 straight 4,400+ yd seasons; historically underrated in ADP",6,6.0,32,5,Gauntlet,Superflex Depth,11.4,,5,Tier 5,64.5,-4.5
+70,Bucky Irving,TB,RB,21,N,FLOOR,"UPDATED 8/30: fully cleared from offseason shoulder surgery, 'full-go' and 'unquestioned starter from Day One' per camp reports -- White is gone (now Washington), no more committee threat",5,10.0,5,1,Very Soft,,11.4,,5,Tier 5,61.7,-8.3
+71,Luther Burden III,CHI,WR,24,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,5,10.0,28,5,Gauntlet,,10.9,,5,Tier 5,64.1,-6.9
+72,Dalton Kincaid,BUF,TE,11,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,30,5,Gauntlet,,10.3,,5,Tier 5,105.9,33.9
+73,Jameson Williams,DET,WR,25,N,BUST,Both breakout years required another player's absence; 3rd option when healthy,5,6.0,32,5,Gauntlet,,9.4,,5,Tier 5,72.3,-0.7
+74,Quinshon Judkins,CLE,RB,22,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,5,11.0,29,5,Gauntlet,,9.1,,5,Tier 5,67.4,-6.6
+75,Jordan Love,GB,QB,17,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,20,4,Tough,Superflex Depth,8.5,,5,Tier 5,77.0,2.0
+76,David Montgomery,HOU,RB,23,N,GAMBLE,"NEW 8/30: traded from Detroit to Houston (Gibbs is now the Lions' unquestioned bell-cow); lands in a crowded 3-way Texans mix with Woody Marks and Nick Chubb, no role locked down",6,8.0,4,1,Very Soft,,8.3,,5,Tier 5,68.2,-7.8
+77,Dallas Goedert,PHI,TE,12,Y,FLOOR,"Contract year; TE4 with 11 TDs in 2025, more volume now that A.J. Brown is gone. UPDATED 8/30: rookie TE Eli Stowers (2nd-rounder) + added WR depth threaten his target share -- one analyst projects him closer to TE15 than TE10, still startable but trending down not up",6,10.0,3,1,Very Soft,,8.2,,5,Tier 5,125.8,48.8
+78,D.J. Moore,BUF,WR,26,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,5,7.0,30,5,Gauntlet,,8.2,,5,Tier 5,64.4,-13.6
+79,Christian Watson,GB,WR,27,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,20,4,Tough,,7.2,,5,Tier 5,78.2,-0.8
+80,Bhayshul Tuten,JAC,RB,24,N,BUST,Averaged just 3.7 YPC; LeQuint Allen handles the receiving work,6,7.0,23,4,Tough,,6.5,,5,Tier 5,72.9,-7.1
+81,Rome Odunze,CHI,WR,28,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,28,5,Gauntlet,,5.9,,5,Tier 5,75.1,-5.9
+82,Baker Mayfield,TB,QB,18,Y,DEPTH,Contract year; real starting job in Tampa Bay,6,10.0,29,5,Gauntlet,Superflex Depth,5.6,,5,Tier 5,80.9,-1.1
+83,Jadarian Price,SEA,RB,25,N,GAMBLE,1st-round rookie capital into an unresolved timeshare with Charbonnet,6,11.0,16,3,Neutral,,5.4,,5,Tier 5,75.5,-7.5
+84,Mike Evans,SF,WR,29,Y,BUST,Contract year; new team/unproven QB fit; played 17/14/8 games last 3 yrs,6,8.0,16,3,Neutral,,5.2,,5,Tier 5,78.4,-5.6
+85,Isaiah Likely,NYG,TE,13,N,SLEEPER,"3yr/$40M deal, reunited with new Giants HC Harbaugh; Dart's 2nd read",6,8.0,1,1,Very Soft,,4.9,,5,Tier 5,114.3,29.3
+86,TreVeyon Henderson,NE,RB,26,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,28,5,Gauntlet,,4.0,,5,Tier 5,77.4,-8.6
+87,Parker Washington,JAC,WR,30,Y,DEPTH,Contract year; Jaguars depth-chart WR1,6,7.0,27,5,Gauntlet,,3.9,,5,Tier 5,78.9,-8.1
+88,Rhamondre Stevenson,NE,RB,27,N,HANDCUFF,"NEW 8/30: genuine committee with 2nd-year TreVeyon Henderson, not a clear lead back -- touches likely split all season, treat as backend RB depth not a locked-in starter",6,11.0,28,5,Gauntlet,,2.9,,6,Tier 6,87.6,-0.4
+89,Marvin Harrison Jr.,ARI,WR,31,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,14.0,22,4,Tough,,2.8,,6,Tier 6,87.4,-1.6
+90,Kyler Murray,MIN,QB,19,N,SLEEPER,"Won the Vikings' Wk1 job over McCarthy; elite weapons, still-depressed price",6,6.0,9,2,Soft,Superflex Depth,2.7,,6,Tier 6,77.3,-12.7
+91,Mark Andrews,BAL,TE,14,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,4,1,Very Soft,,2.3,,6,Tier 6,126.2,35.2
+92,Jaylen Warren,PIT,RB,28,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,9,2,Soft,,2.0,,6,Tier 6,83.2,-8.8
+93,Carnell Tate,TEN,WR,32,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,14,3,Neutral,,1.9,,6,Tier 6,82.7,-10.3
+94,Tony Pollard,TEN,RB,29,Y,DEPTH,Contract year; Titans' clear RB1,6,9.0,3,1,Very Soft,,1.0,,6,Tier 6,97.2,3.2
+95,Brian Thomas Jr.,JAC,WR,33,N,SLEEPER,"NEW 8/30: 'career-best shape' per camp reports, primed for Jacksonville's true WR1 role -- projected ~22-25% target share, best big-play traits in a crowded room",6,7.0,27,5,Gauntlet,,0.9,,6,Tier 6,92.0,-3.0
+96,DK Metcalf,PIT,WR,34,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,25,4,Tough,,0.0,,6,Tier 6,93.0,-3.0
+97,Tyler Shough,NO,QB,20,N,SLEEPER,Kellen Moore's offense; deep-league Superflex QB2 stash,6,8.0,11,2,Soft,Superflex Depth,0.0,,6,Tier 6,87.0,-10.0
+98,Jonathon Brooks,CAR,RB,30,N,BUST,9 career carries and a second ACL tear; Chuba Hubbard remains the starter,6,5.0,7,2,Soft,,0.0,"2nd career ACL tear, minimal NFL touch history",6,Tier 6,101.4,3.4
+99,Jake Ferguson,DAL,TE,15,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,14.0,8,2,Soft,,0.0,,6,Tier 6,125.2,26.2
+100,Rico Dowdle,PIT,RB,31,N,BUST,Collapsed over final 9 games (3.2 YPC) as the lead-ish back -- also Warren's direct handcuff,6,9.0,9,2,Soft,,-0.9,,6,Tier 6,99.7,-0.3
+101,Chris Godwin,TB,WR,35,Y,DEPTH,Contract year; steady Tampa Bay starter,6,10.0,29,5,Gauntlet,,-0.9,,6,Tier 6,101.3,0.3
+102,Courtland Sutton,DEN,WR,36,N,BUST,Jaylen Waddle's arrival mirrors past attempts to feature other WRs; turns 31,6,10.0,10,2,Soft,,-1.7,,6,Tier 6,101.5,-0.5
+103,J.K. Dobbins,DEN,RB,32,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,30,5,Gauntlet,,-1.7,,6,Tier 6,104.9,1.9
+104,Juwan Johnson,NO,TE,16,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,11,2,Soft,,-2.0,,6,Tier 6,148.9,44.9
+105,Malik Willis,MIA,QB,21,N,SLEEPER,Won Miami's job under an entirely new coaching staff; rushing ceiling,6,6.0,24,4,Tough,Superflex Depth,-2.4,,6,Tier 6,106.6,1.6
+106,Quentin Johnston,LAC,WR,37,Y,DEPTH,Contract year; Chargers WR3,6,7.0,26,4,Tough,,-2.6,,6,Tier 6,121.3,15.3
+107,Blake Corum,LAR,RB,33,N,HANDCUFF,Backs up Kyren Williams after a 5.1 YPC season,6,11.0,17,3,Neutral,,-2.6,,6,Tier 6,111.4,4.4
+108,Michael Pittman Jr.,PIT,WR,38,Y,FLOOR,"NEW 8/30: traded from Indianapolis to Pittsburgh, signed a 3yr/$59M extension there -- presumptive #2 behind DK Metcalf, but capped ceiling in a low-volume passing offense",6,9.0,25,4,Tough,,-3.4,,7,Tier 7,112.5,4.5
+109,Chuba Hubbard,CAR,RB,34,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,5.0,7,2,Soft,,-3.5,,7,Tier 7,112.0,3.0
+110,Hunter Henry,NE,TE,17,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,18,3,Neutral,,-3.7,,7,Tier 7,148.6,38.6
+111,Jacory Croskey-Merritt,WAS,RB,35,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,24,4,Tough,,-4.0,,7,Tier 7,117.9,6.9
+112,Michael Wilson,ARI,WR,39,N,BUST,New OC shifts scheme; 3rd option behind Harrison Jr. and McBride,6,14.0,22,4,Tough,,-4.0,,7,Tier 7,102.3,-9.7
+113,Alec Pierce,IND,WR,40,N,BUST,"Ankle injury complications, no clear return timeline",6,13.0,12,2,Soft,,-4.1,"ankle injury complications, no clear return timeline",7,Tier 7,112.6,-0.4
+114,RJ Harvey,DEN,RB,36,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,30,5,Gauntlet,,-4.6,,7,Tier 7,103.3,-10.7
+115,Sam Darnold,SEA,QB,22,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,17,3,Neutral,Superflex Depth,-4.8,,7,Tier 7,96.1,-18.9
+116,Chig Okonkwo,WAS,TE,18,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,7,2,Soft,,-5.5,,7,Tier 7,161.8,45.8
+117,Jordan Mason,MIN,RB,37,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,6.0,10,2,Soft,,-5.7,,7,Tier 7,113.0,-4.0
+118,Josh Downs,IND,WR,41,Y,DEPTH,Contract year; Colts slot option,6,13.0,12,2,Soft,,-5.8,,7,Tier 7,117.5,-0.5
+119,Wan'Dale Robinson,TEN,WR,42,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,14,3,Neutral,,-6.2,,7,Tier 7,124.4,5.4
+120,Kenny Gainwell,TB,RB,38,N,HANDCUFF,NEW 8/30: Bowles calls him Tampa's 'RB1-B' -- real passing-down role and the direct beneficiary if Irving's recently-surgically-repaired shoulder has any setback,6,10.0,5,1,Very Soft,,-6.4,,7,Tier 7,119.6,-0.4
+121,Stefon Diggs,WAS,WR,43,N,DEPTH,"Washington WR2, veteran",6,7.0,7,2,Soft,,-7.0,,7,Tier 7,112.4,-8.6
+122,Kyle Monangai,CHI,RB,39,N,HANDCUFF,"Backs up D'Andre Swift; strong rookie receiving role, efficiency dipped late",6,10.0,2,1,Very Soft,,-7.1,,7,Tier 7,121.7,-0.3
+123,Dalton Schultz,HOU,TE,19,N,SLEEPER,Projected 100+ targets again as Stroud's clear No. 2,6,8.0,5,1,Very Soft,,-7.1,,7,Tier 7,160.2,37.2
+124,C.J. Stroud,HOU,QB,23,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,5,1,Very Soft,Superflex Depth,-7.3,,7,Tier 7,111.0,-13.0
+125,Rachaad White,WAS,RB,40,Y,HANDCUFF,Contract year; insurance behind Jacory Croskey-Merritt,6,7.0,24,4,Tough,,-7.6,,7,Tier 7,135.7,10.7
+126,Jayden Reed,GB,WR,45,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,20,4,Tough,,-7.9,,7,Tier 7,112.1,-13.9
+127,Jordan Addison,MIN,WR,44,Y,DEPTH,Contract year; real WR2 in a good Vikings offense,6,6.0,9,2,Soft,,-8.0,,7,Tier 7,116.3,-10.7
+128,Brenton Strange,JAC,TE,20,Y,DEPTH,Contract year; Jaguars starting TE,6,7.0,27,5,Gauntlet,,-8.3,,7,Tier 7,153.0,25.0
+129,Chris Rodriguez Jr.,JAC,RB,42,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,23,4,Tough,,-8.4,,7,Tier 7,142.9,13.9
+130,Aaron Jones,MIN,RB,41,Y,DEPTH,Contract year; Vikings committee back,6,6.0,10,2,Soft,,-8.6,,7,Tier 7,130.7,0.7
+131,Jakobi Meyers,JAC,WR,47,N,FLOOR,NEW 8/30: traded from Las Vegas to Jacksonville; profiles as JAX's slot/possession weapon (~22-25% target share) alongside Thomas and a limited-role Travis Hunter,6,7.0,27,5,Gauntlet,,-8.9,,7,Tier 7,136.2,5.2
+132,Makai Lemon,PHI,WR,46,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,3,1,Very Soft,,-9.0,,7,Tier 7,113.3,-18.7
+133,Cam Ward,TEN,QB,24,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,14,3,Neutral,Superflex Depth,-9.2,,7,Tier 7,121.7,-11.3
+134,Terrance Ferguson,LAR,TE,21,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,23,4,Tough,,-9.3,,7,Tier 7,171.9,37.9
+135,Tyler Allgeier,ARI,RB,44,N,GAMBLE,"UPDATED 8/30: signed with Arizona into a crowded 3-way mix with rookie Jeremiyah Love and James Conner -- one early depth chart even lists him RB1, but treat the touch split as unsettled",6,14.0,25,4,Tough,,-9.4,,7,Tier 7,145.0,10.0
+136,Woody Marks,HOU,RB,43,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,4,1,Very Soft,,-9.5,,7,Tier 7,144.2,8.2
+137,Romeo Doubs,NE,WR,48,N,,NEW 8/30: signed with New England after Green Bay passed on re-signing him (rookie Matthew Golden was ready to inherit the role) -- early-down/possession role with the Patriots now,6,11.0,18,3,Neutral,,-9.7,,7,Tier 7,140.3,3.3
+138,Xavier Worthy,KC,WR,49,N,SLEEPER,"Only 23; KC lacks depth behind Rice, value rises if Rice sits",6,5.0,15,3,Neutral,,-10.3,,8,Tier 8,140.0,2.0
+139,AJ Barner,SEA,TE,22,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,17,3,Neutral,,-10.6,,8,Tier 8,168.1,29.1
+140,Keaton Mitchell,LAC,RB,46,N,HANDCUFF,Backs up Omarion Hampton; new OC McDaniel scheme fit,6,7.0,14,3,Neutral,,-10.7,,8,Tier 8,158.4,18.4
+141,Jordyn Tyson,NO,WR,54,N,BUST,Injured in all 4 college seasons plus a May injury,6,8.0,11,2,Soft,,-11.1,injured in all 4 college seasons plus a May injury,8,Tier 8,130.1,-10.9
+142,Tyjae Spears,TEN,RB,45,Y,DEPTH,Contract year; Pollard's handcuff in Tennessee,6,9.0,3,1,Very Soft,,-11.1,,8,Tier 8,153.4,11.4
+143,Jonah Coleman,DEN,RB,48,N,HANDCUFF,"UPDATED 8/30: RB3 behind J.K. Dobbins AND RJ Harvey, but specifically pegged to inherit the 3rd-down passing/pass-block role -- a real if limited-touch role, not a pure emergency stash",6,10.0,30,5,Gauntlet,,-11.1,,8,Tier 8,154.6,11.6
+144,Jalen Coker,CAR,WR,50,Y,SLEEPER,UPDATED 8/30: locked in as a starting OUTSIDE WR next to McMillan (not a slot role as previously scouted) -- only the WR3 job behind them is contested,6,5.0,21,4,Tough,,-11.2,,8,Tier 8,142.0,-2.0
+145,Daniel Jones,IND,QB,25,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,12,2,Soft,Superflex Depth,-11.2,,8,Tier 8,114.7,-30.3
+146,Matthew Golden,GB,WR,51,N,SLEEPER,"UPDATED 8/30: thin rookie-year production (29/361/0), but camp reports now have him as GB's clear #2/#3 target now that Doubs is gone (signed with NE) -- real opportunity behind Watson",6,11.0,20,4,Tough,,-11.2,,8,Tier 8,125.4,-20.6
+147,Khalil Shakir,BUF,WR,52,N,BUST,Snap rate fell 76%->57%; Moore's arrival compresses his target share further,6,7.0,30,5,Gauntlet,,-11.3,,8,Tier 8,144.2,-2.8
+148,Zach Charbonnet,SEA,RB,49,Y,DEPTH,"Contract year; recovering from an ACL tear, timeshare with rookie Price unresolved",6,11.0,16,3,Neutral,,-11.6,recovering from an ACL tear,8,Tier 8,151.2,3.2
+149,Dylan Sampson,CLE,RB,50,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,29,5,Gauntlet,,-11.9,,8,Tier 8,163.7,14.7
+150,T.J. Hockenson,MIN,TE,23,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,6.0,9,2,Soft,,-12.0,,8,Tier 8,164.4,14.4
+151,Tank Bigsby,PHI,RB,47,Y,DEPTH,Contract year; Eagles RB2 behind Barkley,6,10.0,6,1,Very Soft,,-12.1,,8,Tier 8,159.1,8.1
+152,Oronde Gadsden II,LAC,TE,24,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,26,4,Tough,,-12.3,,8,Tier 8,162.2,10.2
+153,Bryce Young,CAR,QB,26,N,,"NEW 8/30: confirmed Panthers starter, strong/positive camp reports (coach cites 'ownership and mastery of the concepts'), no benching threat found -- the 2024 benching is old news, not current",6,5.0,21,4,Tough,Superflex Depth,-12.7,,8,Tier 8,126.9,-26.1
+154,KC Concepcion,CLE,WR,53,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,2,1,Very Soft,,-12.9,,8,Tier 8,125.4,-28.6
+155,MarShawn Lloyd,GB,RB,52,N,HANDCUFF,"Josh Jacobs officially charged, suspension likely -- direct beneficiary",6,11.0,8,2,Soft,,-13.6,,9,Tier 9,145.6,-9.4
+156,Rashid Shaheed,SEA,WR,56,N,SLEEPER,"NEW 8/30: healthy, no suspension found, viewed as a real breakout/stash candidate who may also retain punt/kick return duties for added floor",6,11.0,17,3,Neutral,,-13.7,,9,Tier 9,148.6,-7.4
+157,Kenyon Sadiq,NYJ,TE,25,N,BUST,Sports-hernia recovery ongoing while Mason Taylor gains reps,6,13.0,13,2,Soft,,-13.8,,9,Tier 9,164.8,7.8
+158,Deebo Samuel,SF,WR,55,Y,DEPTH,Contract year; multi-purpose 49ers weapon,6,8.0,16,3,Neutral,,-13.9,,9,Tier 9,141.2,-16.8
+159,De'Zhaun Stribling,SF,WR,57,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,16,3,Neutral,,-14.1,,9,Tier 9,120.9,-38.1
+160,Isiah Pacheco,DET,RB,51,Y,DEPTH,Contract year; Lions RB2,6,6.0,1,1,Very Soft,,-14.2,,9,Tier 9,166.5,6.5
+161,Tyrone Tracy Jr.,NYG,RB,54,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,12,2,Soft,,-14.2,,9,Tier 9,158.6,-2.4
+162,Alvin Kamara,NO,RB,53,Y,DEPTH,Contract year; still New Orleans' starter,6,8.0,18,3,Neutral,,-14.3,,9,Tier 9,162.5,0.5
+163,Gunnar Helm,TEN,TE,26,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,14,3,Neutral,,-14.6,,9,Tier 9,175.9,12.9
+164,Adonai Mitchell,NYJ,WR,58,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,13,2,Soft,,-14.7,,9,Tier 9,171.3,7.3
+165,Ray Davis,BUF,RB,58,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,31,5,Gauntlet,,-14.7,,9,Tier 9,174.2,9.2
+166,Pat Freiermuth,PIT,TE,27,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,25,4,Tough,,-14.9,,9,Tier 9,177.4,11.4
+167,Braelon Allen,NYJ,RB,56,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,13,2,Soft,,-14.9,,9,Tier 9,167.5,0.5
+168,Mike Washington Jr.,LV,RB,57,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,21,4,Tough,,-14.9,,9,Tier 9,145.1,-22.9
+169,Jacoby Brissett,ARI,QB,27,Y,DEPTH,Contract year; Arizona's QB1 but a pure streamer,6,14.0,22,4,Tough,Superflex Depth,-15.1,,9,Tier 9,145.9,-23.1
+170,Brian Robinson,ATL,RB,55,Y,DEPTH,Contract year; Bijan's direct handcuff in Atlanta,6,11.0,15,3,Neutral,,-15.2,,9,Tier 9,156.6,-13.4
+171,Emmett Johnson,KC,RB,59,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,5.0,27,5,Gauntlet,,-15.3,,9,Tier 9,168.1,-2.9
+172,Tre Tucker,LV,WR,60,Y,SLEEPER,Contract year; locked in as Raiders' WR1 at a conservative price,6,13.0,31,5,Gauntlet,,-15.4,,9,Tier 9,163.7,-8.3
+173,Cade Otton,TB,TE,28,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,29,5,Gauntlet,,-15.4,,9,Tier 9,176.6,3.6
+174,Jalen McMillan,TB,WR,62,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,29,5,Gauntlet,,-15.5,,9,Tier 9,164.5,-9.5
+175,Denzel Boston,CLE,WR,59,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,2,1,Very Soft,,-15.7,,9,Tier 9,158.9,-16.1
+176,Kimani Vidal,LAC,RB,60,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,14,3,Neutral,,-16.2,,10,Tier 10,176.6,0.6
+177,David Njoku,LAC,TE,29,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,26,4,Tough,,-16.3,,10,Tier 10,176.6,-0.4
+178,Tre' Harris,LAC,WR,64,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,26,4,Tough,,-16.4,,10,Tier 10,175.3,-2.7
+179,Jerry Jeudy,CLE,WR,61,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,2,1,Very Soft,,-16.5,,10,Tier 10,168.3,-10.7
+180,Geno Smith,NYJ,QB,28,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,13,2,Soft,Superflex Depth,-16.5,,10,Tier 10,147.6,-32.4
+181,Kaytron Allen,WAS,RB,64,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,24,4,Tough,,-16.9,,10,Tier 10,173.7,-7.3
+182,Nicholas Singleton,TEN,RB,61,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,3,1,Very Soft,,-17.1,,10,Tier 10,174.9,-7.1
+183,Jaydon Blue,DAL,RB,63,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,14.0,11,2,Soft,,-17.3,,10,Tier 10,173.7,-9.3
+184,Sean Tucker,TB,RB,62,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,5,1,Very Soft,,-17.4,,10,Tier 10,177.3,-6.7
+185,George Holani,SEA,RB,65,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,16,3,Neutral,,-17.6,,10,Tier 10,175.4,-9.6
+186,Jauan Jennings,MIN,WR,63,Y,BUST,Contract year; excellent blocker but caps his own target share behind Addison,6,6.0,9,2,Soft,,-17.8,,10,Tier 10,170.4,-15.6
+187,Dontayvion Wicks,PHI,WR,65,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,3,1,Very Soft,,-18.0,,10,Tier 10,171.3,-15.7
+188,Jaylen Wright,MIA,RB,68,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,6.0,22,4,Tough,,-18.1,,10,Tier 10,180.0,-8.0
+189,Aaron Rodgers,PIT,QB,29,Y,DEPTH,"Contract year; age 42, late-round streamer only",6,9.0,25,4,Tough,Superflex Depth,-18.3,,10,Tier 10,143.3,-45.7
+190,James Conner,ARI,RB,66,Y,DEPTH,Contract year; Arizona's early-down/goal-line starter,6,14.0,25,4,Tough,,-18.3,,10,Tier 10,171.5,-18.5
+191,Jalen Nailor,LV,WR,71,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,31,5,Gauntlet,,-18.4,,10,Tier 10,162.2,-28.8
+192,Malik Washington,MIA,WR,70,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,6.0,24,4,Tough,,-18.5,,10,Tier 10,166.5,-25.5
+193,Kaelon Black,SF,RB,69,N,HANDCUFF,Competing for McCaffrey's direct backup job,6,8.0,19,3,Neutral,,-18.5,,10,Tier 10,166.8,-26.2
+194,Colby Parkinson,LAR,TE,31,Y,DEPTH,Contract year; Rams TE2,6,11.0,23,4,Tough,,-18.6,,10,Tier 10,174.4,-19.6
+195,Fernando Mendoza,LV,QB,30,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,31,5,Gauntlet,Superflex Depth,-18.6,,10,Tier 10,134.6,-60.4
+196,Evan Engram,DEN,TE,30,Y,DEPTH,Contract year; Broncos starting TE,6,10.0,10,2,Soft,,-18.7,,10,Tier 10,176.8,-19.2
+197,Pat Bryant,DEN,WR,68,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,10,2,Soft,,-18.7,,10,Tier 10,172.1,-24.9
+198,Omar Cooper Jr.,NYJ,WR,69,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,13,2,Soft,,-18.9,,10,Tier 10,169.3,-28.7
+199,Emanuel Wilson,SEA,RB,67,Y,DEPTH,Contract year; Seattle depth behind the Price/Charbonnet battle,6,11.0,16,3,Neutral,,-19.1,,10,Tier 10,,
+200,Greg Dulcich,MIA,TE,32,Y,DEPTH,Contract year; Dolphins starting TE,6,6.0,24,4,Tough,,-19.2,,10,Tier 10,176.6,-23.4
+201,Kayshon Boutte,HOU,WR,66,Y,DEPTH,Contract year; Texans depth,6,8.0,5,1,Very Soft,,-19.2,,10,Tier 10,167.7,-33.3
+202,Ryan Flournoy,DAL,WR,67,Y,DEPTH,Contract year; Cowboys depth,6,14.0,8,2,Soft,,-19.4,,10,Tier 10,175.9,-26.1
+203,Mason Taylor,NYJ,TE,33,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,13,2,Soft,,-19.5,,10,Tier 10,,
+204,Jordan James,SF,RB,73,N,HANDCUFF,Competing for McCaffrey's direct backup job,6,8.0,19,3,Neutral,,-19.5,,10,Tier 10,176.3,-27.7
+205,Justice Hill,BAL,RB,70,Y,DEPTH,Contract year; Ravens passing-down back,6,13.0,20,4,Tough,,-19.7,,10,Tier 10,172.1,-32.9
+206,Travis Hunter,JAC,WR,75,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,27,5,Gauntlet,,-19.8,,10,Tier 10,168.0,-38.0
+207,Calvin Ridley,TEN,WR,72,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,14,3,Neutral,,-19.8,,10,Tier 10,174.7,-32.3
+208,Chris Brooks,GB,RB,72,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,8,2,Soft,,-20.0,,10,Tier 10,,
+209,Samaje Perine,CIN,RB,75,Y,DEPTH,Contract year; Bengals passing-down depth,6,6.0,32,5,Gauntlet,,-20.1,,10,Tier 10,178.9,-30.1
+210,Ollie Gordon II,MIA,RB,77,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,6.0,22,4,Tough,,-20.2,,10,Tier 10,,
+211,Demond Claiborne,MIN,RB,74,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,6.0,10,2,Soft,,-20.3,,10,Tier 10,175.8,-35.2
+212,Najee Harris,NYG,RB,71,Y,DEPTH,Contract year; Giants early-down back,6,8.0,12,2,Soft,,-20.4,,10,Tier 10,174.5,-37.5
+213,Isaac TeSlaa,DET,WR,79,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,6.0,32,5,Gauntlet,,-20.6,,10,Tier 10,173.6,-39.4
+214,Isaiah Davis,NYJ,RB,76,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,13,2,Soft,,-20.6,,10,Tier 10,,
+215,LeQuint Allen,JAC,RB,80,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,23,4,Tough,,-20.7,,10,Tier 10,,
+216,DJ Giddens,IND,RB,81,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,26,4,Tough,,-20.7,,10,Tier 10,,
+217,Theo Johnson,NYG,TE,34,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,1,1,Very Soft,,-20.9,,10,Tier 10,,
+218,Ty Johnson,BUF,RB,79,Y,DEPTH,Contract year; Bills RB depth,6,7.0,31,5,Gauntlet,,-21.0,,10,Tier 10,,
+219,Jaylin Noel,HOU,WR,74,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,5,1,Very Soft,,-21.0,,10,Tier 10,178.6,-40.4
+220,Darren Waller,CAR,TE,37,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,5.0,21,4,Tough,,-21.1,,10,Tier 10,176.9,-43.1
+221,Malik Davis,DAL,RB,78,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,14.0,11,2,Soft,,-21.1,,10,Tier 10,,
+222,Seth McGowan,IND,RB,83,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,26,4,Tough,,-21.1,,10,Tier 10,,
+223,Keenan Allen,IND,WR,73,Y,FLOOR,Contract year; still commands 120+ targets in a crowded room,6,13.0,12,2,Soft,,-21.2,,10,Tier 10,163.6,-59.4
+224,Eli Stowers,PHI,TE,35,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,3,1,Very Soft,,-21.3,,10,Tier 10,174.4,-49.6
+225,Cooper Kupp,SEA,WR,78,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,17,3,Neutral,,-21.3,,10,Tier 10,173.3,-51.7
+226,Emari Demercado,KC,RB,85,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,5.0,27,5,Gauntlet,,-21.4,,10,Tier 10,,
+227,Tyreek Hill,FA,WR,112,N,BUST,Severe 2025 knee injury (dislocation + multi-ligament); unsigned FA; real chance he's done -- avoid entirely,6,,16,3,N/A (FA),,-21.5,"severe 2025 multi-ligament knee injury, unsigned FA",10,Tier 10,174.5,-52.5
+228,Germie Bernard,PIT,WR,81,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,25,4,Tough,,-21.6,,10,Tier 10,,
+229,Mike Gesicki,CIN,TE,36,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,6.0,6,1,Very Soft,,-21.6,,10,Tier 10,,
+230,Chris Bell,MIA,WR,88,N,SLEEPER,Post-ACL; could be Miami's top size/speed WR if healthy,6,6.0,24,4,Tough,,-21.7,post-ACL,10,Tier 10,175.5,-54.5
+231,Adam Randall,BAL,RB,84,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,20,4,Tough,,-21.7,,10,Tier 10,,
+232,Rashod Bateman,BAL,WR,76,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,4,1,Very Soft,,-21.7,,10,Tier 10,175.3,-56.7
+233,Brashard Smith,KC,RB,87,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,5.0,27,5,Gauntlet,,-21.8,,10,Tier 10,,
+234,Tua Tagovailoa,ATL,QB,31,Y,DEPTH,"Contract year; now Atlanta's QB1 by depth chart, unproven fit",6,11.0,19,3,Neutral,Superflex Depth,-21.8,,10,Tier 10,164.1,-69.9
+235,Jake Tonges,SF,TE,38,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,16,3,Neutral,,-21.9,,10,Tier 10,176.5,-58.5
+236,Tahj Brooks,CIN,RB,90,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,6.0,32,5,Gauntlet,,-21.9,,10,Tier 10,,
+237,Michael Penix Jr.,ATL,QB,32,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,19,3,Neutral,Superflex Depth,-22.1,,10,Tier 10,168.1,-68.9
+238,Devin Neal,NO,RB,86,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,18,3,Neutral,,-22.2,,10,Tier 10,,
+239,Zachariah Branch,ATL,WR,82,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,19,3,Neutral,,-22.3,,10,Tier 10,172.5,-66.5
+240,Keon Coleman,BUF,WR,86,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,30,5,Gauntlet,,-22.4,,10,Tier 10,175.8,-64.2
+241,Kendre Miller,NO,RB,82,Y,DEPTH,Contract year; Kamara's handcuff in New Orleans,6,8.0,18,3,Neutral,,-22.6,,10,Tier 10,176.9,-64.1
+242,Trey Benson,ARI,RB,91,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,14.0,25,4,Tough,,-22.6,,10,Tier 10,179.6,-62.4
+243,Darnell Washington,PIT,TE,39,Y,DEPTH,Contract year; Steelers blocking-TE2,6,9.0,25,4,Tough,,-22.8,,10,Tier 10,,
+244,Charlie Kolar,LAC,TE,42,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,26,4,Tough,,-22.8,,10,Tier 10,,
+245,Tank Dell,HOU,WR,77,Y,DEPTH,"Contract year; Texans depth, buried in a crowded room",6,8.0,5,1,Very Soft,,-23.0,,10,Tier 10,169.6,-75.4
+246,Jack Bech,LV,WR,89,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,31,5,Gauntlet,,-23.0,,10,Tier 10,,
+247,Devin Singletary,NYG,RB,88,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,12,2,Soft,,-23.0,,10,Tier 10,,
+248,Jarquez Hunter,MIA,RB,93,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,6.0,22,4,Tough,,-23.1,,10,Tier 10,,
+249,Michael Mayer,LV,TE,41,Y,DEPTH,Contract year; Raiders TE2,6,13.0,31,5,Gauntlet,,-23.1,,10,Tier 10,,
+250,Oscar Delp,NO,TE,40,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,11,2,Soft,,-23.1,,10,Tier 10,,
+251,Jaleel McLaughlin,DEN,RB,97,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,30,5,Gauntlet,,-23.1,,10,Tier 10,,
+252,Jerome Ford,WAS,RB,94,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,24,4,Tough,,-23.1,,10,Tier 10,,
+253,Troy Franklin,DEN,WR,83,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,10,2,Soft,,-23.2,,10,Tier 10,174.4,-78.6
+254,Devaughn Vele,NO,WR,84,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,11,2,Soft,,-23.4,,10,Tier 10,170.7,-83.3
+255,Ted Hurst III,TB,WR,91,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,29,5,Gauntlet,,-23.6,,10,Tier 10,,
+256,Trevor Etienne,CAR,RB,89,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,5.0,7,2,Soft,,-23.6,,10,Tier 10,,
+257,Isaac Guerendo,SF,RB,95,N,HANDCUFF,Competing for McCaffrey's direct backup job,6,8.0,19,3,Neutral,,-23.7,,10,Tier 10,,
+258,Kirk Cousins,LV,QB,33,Y,DEPTH,"Contract year; age 38, backup in Las Vegas",6,13.0,31,5,Gauntlet,Superflex Depth,-23.7,,10,Tier 10,165.9,-92.1
+259,Elijah Arroyo,SEA,TE,43,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,17,3,Neutral,,-23.8,,10,Tier 10,,
+260,Audric Estime,NO,RB,96,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,18,3,Neutral,,-23.9,,10,Tier 10,,
+261,Cole Kmet,CHI,TE,46,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,28,5,Gauntlet,,-24.0,,10,Tier 10,,
+262,Kaleb Johnson,PIT,RB,92,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,9,2,Soft,,-24.0,,10,Tier 10,,
+263,Bam Knight,ARI,RB,101,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,14.0,25,4,Tough,,-24.1,,10,Tier 10,,
+264,Dawson Knox,BUF,TE,47,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,30,5,Gauntlet,,-24.1,,10,Tier 10,,
+265,Darnell Mooney,NYG,WR,80,Y,DEPTH,Contract year; Giants WR2,6,8.0,1,1,Very Soft,,-24.2,,10,Tier 10,181.7,-83.3
+266,Raheim Sanders,CLE,RB,105,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,29,5,Gauntlet,,-24.3,,10,Tier 10,,
+267,Malachi Fields,NYG,WR,85,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,1,1,Very Soft,,-24.4,,10,Tier 10,171.3,-95.7
+268,Eli Raridon,NE,TE,45,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,18,3,Neutral,,-24.5,,10,Tier 10,,
+269,Kareem Hunt,FA,RB,99,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,,16,3,N/A (FA),,-24.5,,10,Tier 10,,
+270,Joe Mixon,FA,RB,100,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,,16,3,N/A (FA),,-24.6,,10,Tier 10,,
+271,Ja'Kobi Lane,BAL,WR,87,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,4,1,Very Soft,,-24.7,,10,Tier 10,158.5,-112.5
+272,Caleb Douglas,MIA,WR,95,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,6.0,24,4,Tough,,-24.9,,10,Tier 10,171.1,-100.9
+273,Elic Ayomanor,TEN,WR,92,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,14,3,Neutral,,-25.0,,10,Tier 10,,
+274,Tyler Higbee,LAR,TE,48,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,23,4,Tough,,-25.0,,10,Tier 10,,
+275,Tory Horton,SEA,WR,93,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,17,3,Neutral,,-25.0,,10,Tier 10,175.1,-99.9
+276,Antonio Williams,WAS,WR,90,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,7,2,Soft,,-25.1,,10,Tier 10,174.4,-101.6
+277,Erick All Jr.,CIN,TE,44,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,6.0,6,1,Very Soft,,-25.1,,10,Tier 10,,
+278,Will Shipley,PHI,RB,98,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,6,1,Very Soft,,-25.1,,10,Tier 10,,
+279,Tyquan Thornton,KC,WR,94,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,5.0,15,3,Neutral,,-25.4,,10,Tier 10,,
+280,Eli Heidenreich,PIT,RB,102,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,9,2,Soft,,-25.5,,10,Tier 10,,
+281,Max Klare,LAR,TE,50,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,23,4,Tough,,-25.6,,10,Tier 10,,
+282,Chimere Dike,TEN,WR,96,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,14,3,Neutral,,-25.9,,10,Tier 10,179.7,-102.3
+283,Xavier Legette,CAR,WR,99,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,5.0,21,4,Tough,,-25.9,,10,Tier 10,,
+284,Jawhar Jordan,HOU,RB,103,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,4,1,Very Soft,,-26.0,,10,Tier 10,,
+285,Ja'Tavion Sanders,CAR,TE,51,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,5.0,21,4,Tough,,-26.0,,10,Tier 10,,
+286,Noah Gray,KC,TE,49,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,5.0,15,3,Neutral,,-26.0,,10,Tier 10,,
+287,Michael Carter,TEN,RB,104,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,3,1,Very Soft,,-26.3,,10,Tier 10,,
+288,Skyler Bell,BUF,WR,107,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,30,5,Gauntlet,,-26.6,,10,Tier 10,,
+289,Carson Beck,ARI,QB,36,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,14.0,22,4,Tough,Superflex Depth,-26.9,,10,Tier 10,177.0,-112.0
+290,Kyle Williams,NE,WR,103,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,18,3,Neutral,,-27.0,,10,Tier 10,,
+291,Cyrus Allen,KC,WR,102,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,5.0,15,3,Neutral,,-27.0,,10,Tier 10,165.9,-125.1
+292,Darius Slayton,NYG,WR,97,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,1,1,Very Soft,,-27.2,,10,Tier 10,,
+293,Justin Joly,DEN,TE,52,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,10,2,Soft,,-27.3,,10,Tier 10,,
+294,Mack Hollins,NE,WR,105,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,18,3,Neutral,,-27.3,,10,Tier 10,,
+295,Shedeur Sanders,CLE,QB,35,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,2,1,Very Soft,Superflex Depth,-27.4,,10,Tier 10,169.1,-125.9
+296,Deshaun Watson,CLE,QB,34,Y,DEPTH,"Contract year; Cleveland's QB1, name value only",6,11.0,2,1,Very Soft,Superflex Depth,-27.4,,10,Tier 10,165.5,-130.5
+297,Christian Kirk,SF,WR,98,Y,DEPTH,Contract year; 49ers depth,6,8.0,16,3,Neutral,,-27.5,,10,Tier 10,,
+298,Elijah Sarratt,BAL,WR,100,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,4,1,Very Soft,,-27.6,,10,Tier 10,,
+299,Brandon Aiyuk,SF,WR,108,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,16,3,Neutral,,-28.0,,11,Tier 11,,
+300,Jahan Dotson,ATL,WR,111,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,19,3,Neutral,,-28.3,,11,Tier 11,,
+301,Brenen Thompson,LAC,WR,116,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,26,4,Tough,,-28.4,,11,Tier 11,,
+302,Hollywood Brown,PHI,WR,104,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,3,1,Very Soft,,-28.5,,11,Tier 11,,
+303,Tez Johnson,TB,WR,119,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,10.0,29,5,Gauntlet,,-28.6,,11,Tier 11,,
+304,Marvin Mims,DEN,WR,101,Y,DEPTH,Contract year; Broncos big-play role,6,10.0,10,2,Soft,,-28.6,,11,Tier 11,,
+305,Isaiah Bond,CLE,WR,106,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,2,1,Very Soft,,-28.9,,11,Tier 11,,
+306,Konata Mumpfield,LAR,WR,118,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,23,4,Tough,,-29.0,,11,Tier 11,,
+307,Joshua Palmer,BUF,WR,123,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,30,5,Gauntlet,,-29.1,,11,Tier 11,,
+308,J.J. McCarthy,MIN,QB,37,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,6.0,9,2,Soft,Superflex Depth,-29.2,,11,Tier 11,178.0,-130.0
+309,Bryce Lance,NO,WR,113,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,8.0,11,2,Soft,,-29.4,,11,Tier 11,,
+310,Demario Douglas,NE,WR,109,Y,DEPTH,Contract year; Patriots depth,6,11.0,18,3,Neutral,,-29.4,,11,Tier 11,,
+311,Kendrick Bourne,ARI,WR,120,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,14.0,22,4,Tough,,-29.4,,11,Tier 11,,
+312,Malik Benson,LV,WR,127,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,31,5,Gauntlet,,-29.5,,11,Tier 11,,
+313,Jalen Tolbert,MIA,WR,114,Y,DEPTH,Contract year; Dolphins depth-chart WR1,6,6.0,24,4,Tough,,-29.7,,11,Tier 11,,
+314,Dont'e Thornton Jr.,LV,WR,131,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,13.0,31,5,Gauntlet,,-30.1,,11,Tier 11,,
+315,Olamide Zaccheaus,ATL,WR,124,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,19,3,Neutral,,-30.3,,11,Tier 11,,
+316,Luke McCaffrey,WAS,WR,117,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,7.0,7,2,Soft,,-30.4,,11,Tier 11,,
+317,Chris Brazzell II,CAR,WR,126,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,5.0,21,4,Tough,,-30.4,,11,Tier 11,,
+318,Jalen Royals,KC,WR,122,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,5.0,15,3,Neutral,,-30.4,,11,Tier 11,,
+319,Roman Wilson,PIT,WR,130,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,9.0,25,4,Tough,,-30.5,,11,Tier 11,,
+320,Andrei Iosivas,CIN,WR,110,Y,DEPTH,Contract year; Bengals depth,6,6.0,6,1,Very Soft,,-30.8,,11,Tier 11,,
+321,Savion Williams,GB,WR,128,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,20,4,Tough,,-30.8,,11,Tier 11,,
+322,Ty Simpson,LAR,QB,40,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,11.0,23,4,Tough,Superflex Depth,-31.0,,11,Tier 11,177.1,-144.9
+323,Mac Jones,SF,QB,38,Y,DEPTH,Contract year; backup to Purdy,6,8.0,16,3,Neutral,Superflex Depth,-31.1,,11,Tier 11,180.3,-142.7
+324,Cedric Tillman,FA,WR,121,Y,DEPTH,CAUTION: previously scouted as Browns WR6 (contract year); FantasyPros' fresh Aug-29 pull tags him FA (unsigned) -- verify his actual roster status before drafting.,6,,16,3,N/A (FA),,-31.6,,12,Tier 12,,
+325,Xavier Hutchinson,HOU,WR,115,Y,DEPTH,Contract year; Texans depth,6,8.0,5,1,Very Soft,,-31.8,,12,Tier 12,,
+326,KaVontae Turpin,DAL,WR,129,N,,ECR-ranked; no dedicated situational research yet -- verify news/depth chart closer to draft time.,6,14.0,8,2,Soft,,-32.1,,12,Tier 12,,
+327,Justin Fields,KC,QB,39,Y,DEPTH,Contract year; rushing-only streamer if he starts in KC,6,5.0,15,3,Neutral,Superflex Depth,-32.4,,12,Tier 12,177.3,-149.7
+328,Treylon Burks,WAS,WR,125,Y,DEPTH,Contract year; Commanders depth,6,7.0,7,2,Soft,,-33.2,,12,Tier 12,,

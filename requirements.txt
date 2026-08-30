@@ -1,0 +1,4 @@
+# 2026 Fantasy Draft Kit / Companion app
+streamlit>=1.62
+pandas>=2.1
+openpyxl>=3.1   # build_draft_kit_2026.py workbook output
